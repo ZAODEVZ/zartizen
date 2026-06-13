@@ -20,6 +20,7 @@ library where they originated; descriptive-named docs are zartizen-native.
 - [community-fund-playbook.md](community-fund-playbook.md) - how the best funds run + fill, as a model for ZAO
 - [rene-pinnell-digest.md](rene-pinnell-digest.md) - René's thesis, roadmap, trackable targets, track record
 - [art-token-onchain.md](art-token-onchain.md) - on-chain reality check on the ART token (Etherscan-verified)
+- [research-audit.md](research-audit.md) - critical audit: corrections (white-space claim, fund dormancy), gaps, next steps
 
 ## How to use
 

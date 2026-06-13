@@ -25,10 +25,10 @@ interface Lane {
 }
 
 const LANES: Lane[] = [
+  { fund: "We're Loud Fund", owns: 'DIY music festivals in unlikely places' },
+  { fund: 'Global Music Fund', owns: 'cross-cultural music collaboration' },
   { fund: 'Greenpill Regen Gatherings', owns: 'regenerative / ecovillage gatherings' },
-  { fund: 'Terminus', owns: 'sovereign communities, network states' },
-  { fund: 'Hubs / Third Place', owns: 'permanent physical spaces' },
-  { fund: 'ZAO Festivals Fund', owns: 'music + artist-led IRL festivals and activations' },
+  { fund: 'ZAO Festivals Fund', owns: "ZAO's own events + artists, backed by the ZAO crowd" },
 ];
 
 interface FestEvent {
@@ -186,12 +186,13 @@ export default function FestivalsPage() {
           </ul>
         </section>
 
-        {/* The open lane */}
+        {/* Where ZAO Festivals fits */}
         <section className="mb-12">
-          <h2 className="text-lg font-bold sm:text-xl">The open lane</h2>
+          <h2 className="text-lg font-bold sm:text-xl">Where ZAO Festivals fits</h2>
           <p className="mt-2 text-sm leading-relaxed text-white/70">
-            Artizen already has great community funds - but none for music and artist-led live events.
-            That is the gap the ZAO Festivals Fund fills.
+            Artizen has funds for music and for gatherings - we are not claiming an empty lane. What ZAO
+            Festivals adds is a home run by the people who throw the festivals: backing our own ecosystem
+            of events and the artists in them, with a community that actually shows up to collect.
           </p>
           <ul className="mt-4 grid gap-3 sm:grid-cols-2">
             {LANES.map((l) => {

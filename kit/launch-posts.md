@@ -31,13 +31,13 @@ zartizen.vercel.app and zartizen.vercel.app/festivals.
 > get funded without losing ownership. ZAOstock is the flagship. Zaoville is the dry run. The door is
 > open for more.
 >
-> No other fund on Artizen is built for music festivals. This one is, run by people who throw them.
+> A fund run by the people who throw the festivals - backing our own events and the artists in them.
 >
 > zartizen.vercel.app/festivals
 
 **Short version (X):**
 > ZAO Festivals: a home + fund for music festivals and artist-led IRL events. ZAOstock + Zaoville +
-> yours. The open lane on Artizen. zartizen.vercel.app/festivals
+> yours - run by people who throw them. zartizen.vercel.app/festivals
 
 ---
 
