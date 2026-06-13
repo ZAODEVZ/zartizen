@@ -9,11 +9,14 @@
 *.private.json
 .zao-private/
 
-# Node (if the page is ever built out into an app here)
+# Next.js app
 node_modules/
 .next/
 out/
 dist/
+next-env.d.ts
+*.tsbuildinfo
+.vercel
 .env
 .env.*
 !.env.example

@@ -53,6 +53,23 @@ The plan from here:
 | `CLAUDE.md` | Repo context for collaborators + agents |
 | `page/artizen-page.tsx` | The zaoos.com/artizen hub page (Next.js, for reference/port) |
 
+## Run + deploy the site
+
+ZArtizen is a standalone Next.js 16 app (the homepage is the ZAO Fund hub). To run it:
+
+```bash
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # production build (verified green)
+```
+
+To deploy + share with the Artizen community:
+- Connect `ZAODEVZ/zartizen` to Vercel (Import Project) - it auto-builds on every push, no config needed.
+- Or from the repo: `npx vercel --prod` (requires a Vercel login).
+
+The homepage rotates a featured "Project of the day" automatically (server-side, by date), lists the
+full fund roster, shows the like-minded funds, and has a "join the fund" submit path.
+
 ## Status (2026-06-13)
 
 - Research: complete (8 docs).
