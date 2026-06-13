@@ -45,11 +45,18 @@ The plan from here:
 | `research/850` | Create + run the ZAO Festivals Fund (manager playbook) |
 | `research/760` | InfiniteZero / DIN (the #1 project in the ZAO fund - context) |
 | `kit/fund-proposal.md` | Ready-to-submit ZAO Festivals Fund proposal + 3 Qs for René |
+| `kit/make-festivals-on-artizen.md` | Step-by-step: submit ZAOstock + Zaoville today, create the fund after the call |
+| `kit/artifact-briefs.md` | Paste-ready submissions for WaveWarZ, SongJam, COC, Thy Revolution |
 | `kit/rene-call-brief.md` | Agenda + asks + talking points for the René call |
 | `kit/sponsor-onepager.md` | Sponsor pitch for the ZAO Festivals Fund match pool |
 | `kit/outreach-drafts.md` | René/Nate DM, DWeb Village app, cross-curation DM, member rally |
 | `kit/submission-template.md` | Project submission template + artifact specs + first cohort |
 | `kit/daily-spotlights.md` | 32-post daily project-spotlight series |
+| `kit/launch-posts.md` | Share copy for the hub + Festivals umbrella (Farcaster/X/Console/TG/LinkedIn) |
+| `kit/operating-rhythm.md` | Daily/weekly/seasonal cadence + metrics to track |
+| `research/fund-directory.md` | Fund landscape + ZAO stacking map + cross-backing targets |
+| `research/rene-pinnell-digest.md` | René's thesis, roadmap, trackable targets, track record |
+| `research/community-fund-playbook.md` | How the best funds run + fill, as a model for ZAO |
 | `CLAUDE.md` | Repo context for collaborators + agents |
 | `page/artizen-page.tsx` | The zaoos.com/artizen hub page (Next.js, for reference/port) |
 
