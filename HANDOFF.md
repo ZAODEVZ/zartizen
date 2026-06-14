@@ -1,61 +1,65 @@
-# ZArtizen - Handoff
+# ZArtizen - Handoff (current as of 2026-06-14)
 
-Handoff for whoever picks this up next (Zaal, Iman, a fresh Claude session, or a teammate).
-Written 2026-06-13. Read README.md first for the big picture; this is the "what to do + why it's
-set up this way" layer.
+For whoever picks this up next (Zaal, a teammate, or a fresh session). Read README.md for the full
+picture; this is the "where it stands + what to do next" layer.
 
-## Why this repo exists
+## What this is
 
-The Artizen work was done inside the ZAOOS monorepo, but parallel terminal sessions kept swapping
-the shared git worktree out mid-task - twice a research doc got committed onto the wrong PR branch
-and had to be reverted and re-landed. Graduating to a standalone repo (ZADEVZ/zartizen) ends that:
-isolated checkout, no shared-branch races, and it matches the ZAO "monorepo as lab -> own repo"
-pattern. The research docs also live in ZAOOS (PR #844) as institutional memory; this repo is the
-operating home for execution.
+The ZAO's operating home for everything Artizen - research, strategy, a ready-to-use kit, and a live
+3-page site. Graduated out of the ZAOOS monorepo (2026-06-13) into ZADEVZ/zartizen so parallel sessions
+stop colliding the work.
+
+## Live site (deploy via Vercel)
+
+- **https://zartizen.vercel.app** - the ZAO Fund hub (daily featured project, searchable 32-project roster, like-minded funds).
+- **https://zartizen.vercel.app/festivals** - the ZAO Festivals umbrella (ZAOstock, Zaoville, how to join).
+- **https://zartizen.vercel.app/proposal** - SHAREABLE decision page for ZAO Festivals teammates (create a fund vs curate into existing, with a call for input). Send this one around for feedback.
+
+## The headline decision (needs team input)
+
+A full scan of Artizen (79 funds) reversed the original plan. **Recommendation: do NOT create a new ZAO
+Festivals Fund yet - curate ZAOstock + Zaoville INTO existing funds** (We're Loud, Global Music, Greenpill,
+ZAO Emerging Culture). Why: the "music white space" is gone (those funds exist and 6 ZAO music projects
+are already stacked in Global Music), and a new fund is overhead in a crowded field while the ZAO fund is
+already dormant. A dedicated ZAO Festivals Fund is a later, bigger step (only if ZAO wants to host other
+organizers). Full reasoning: research/priority-funds.md + research/research-audit.md. The /proposal page
+puts this to the team.
 
 ## Tasks to absorb (priority order)
 
-1. **Send the René + Nate DM** (`kit/outreach-drafts.md` #1). Books the call, asks the 3 open
-   questions. Everything fund-creation-related is gated on this.
-2. **Start the daily spotlight series** (`kit/daily-spotlights.md`). One project/day. Pure upside,
-   no dependencies. Re-check the live fund for which projects have match remaining before posting.
-3. **Submit the ZAO Festivals Fund proposal** (`kit/fund-proposal.md`) after the René call confirms
-   two-fund governance + seed.
-4. **Onboard the first cohort** (`kit/submission-template.md`): WaveWarZ, SongJam, ZAOstock, Thy
-   Revolution - submit + cross-curate into multiple funds.
-5. **Get on Console** (console.xyz) - Artizen's Artifact-gated social layer; ZAO has no presence yet.
-6. **IRL**: Edge Esmeralda residency (live through Jun 27, Artizen team + Telamon on-site) and the
-   DWeb Camp Village application (Berlin Jul 8-12, ~20 slots).
+1. **Share /proposal** with the ZAO Festivals team, collect input on Option A (create) vs B (curate-into).
+2. **Activate the ZAO fund this drive** - it's dormant (~$188); rally the community to collect its projects (kit/outreach-drafts.md #4).
+3. **Stack the events** - submit ZAOstock + Zaoville (kit/make-festivals-on-artizen.md) into We're Loud + Global Music + Greenpill + ZAO Emerging Culture.
+4. **Put ZOE/Hermes in the Bonfires fund** - our knowledge-graph partner; Arun's DreamStarter + Abraham Nash are already there.
+5. **Send the René DM** (kit/outreach-drafts.md #1) only if the team chooses to pursue a dedicated fund.
 
-## Key decisions already made
+## Key findings / decisions on record
 
-- Create a SECOND fund (ZAO Festivals) - reverses the earlier "keep one fund" call (doc 846).
-  Rationale: it's allowed, the festival lane is white space, and the manager playbook is in doc 850.
-- Keep ZAO Fund for Emerging Culture too (distinct mission, shared community).
-- ART token engagement: keep ZAO treasury OUT of the ART bonding curve until there's a public stress
-  test (reflexivity risk - doc 845).
-- The zaoos.com/artizen page stays in ZAOOS (it's a ZAO OS route); this repo holds a copy for porting.
+- Music/festival funds are crowded (We're Loud, Global Music, Greenpill + more) - white-space claim corrected.
+- ZAO Fund is dormant per-drive ($188, ~#23); standings are volatile - re-render before quoting any rank.
+- The "$14M endowment" is self-reported - on-chain, the ART token's Juicebox project (587) holds ~34 ETH
+  and is dormant. Do NOT cite $14M as fact; keep ZAO treasury off the ART token. (research/art-token-onchain.md)
+- Ecosystem allies run funds: Bonfires (our partner), Edge City (Telamon), DeSci Asia, Pressman Film.
 
-## Current state
+## Open items
 
-- 8 research docs (complete). zaoos.com/artizen hub page (shipped, ZAOOS PR #844). Kit (drafted).
-- Fund proposal ready, NOT submitted. Daily series drafted, NOT posting. No Console presence yet.
-- Live numbers move daily mid-drive; re-render the fund page before quoting any standing.
+- **Auto-deploy is NOT wired.** Git pushes do NOT trigger Vercel builds - deploys have been manual
+  (`npx vercel --prod` as bettercallzaal). Fix with `vercel git connect` so pushes ship themselves.
+  Until then, after any change, run a manual deploy or the live site lags the repo.
+- We're Loud Fund slug unresolved (couldn't render its roster); curator = Pete Menchetti (We're Loud Fest).
+- Verify the $14M: render Juicebox project 587's full treasury (browser/subgraph) to settle it.
 
-## Open questions (for the René call)
+## Repo layout
 
-1. Can one org/director run two funds? 2. Can a director curate their own project into their own
-fund? 3. Does a second fund get its own $50K seed?
+- `research/` - 15 docs incl. the full 79-fund directory, the audit, priority-fund renders, on-chain checks (see research/README.md).
+- `kit/` - copy-paste outreach, submissions, fund proposal, daily spotlights, launch posts, operating rhythm.
+- `app/` - the Next.js site (`/`, `/festivals`, `/proposal` + OG images). `npm install && npm run dev`.
+- README.md (front door) + CLAUDE.md (agent/collaborator context) + this file.
 
 ## Cold-start for a new session
 
-- Read README.md, then research/850 (fund creation) + research/849 (execution kit).
-- The fund is at artizen.thezao.com (redirects to artizen.fund/index/mf/zao-fund-for-emerging-culture).
-- Artizen is a Bubble.io app - curl/exa return empty shells; render with a headless browser to read
-  fund rosters/standings.
-- Contacts: René Pinnell (@RJPinnell), Nate Van Cleve (Head of Product). News: news.artizen.fund.
-
-## Human-only actions (no agent can do these)
-
-Send the DMs, submit the proposal + projects, set up Console, collect/boost artifacts (wallet),
-attend IRL. The repo gives you the copy + the plan; the sends are yours.
+- Read README.md, then research/priority-funds.md + research/research-audit.md for the current strategy.
+- Artizen is a Bubble.io app - curl/exa return empty shells; render fund pages with a headless browser.
+- Standings change per-drive; never trust a cached number.
+- Contacts: René Pinnell (@RJPinnell), Nate Van Cleve; Bonfires team (our partner); Pete Menchetti (We're Loud).
+- Human-only actions (send DMs, submit projects, collect/boost, Console) are the operator's; the kit has the copy.
