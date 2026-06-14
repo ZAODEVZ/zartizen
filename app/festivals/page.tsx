@@ -96,7 +96,7 @@ function NavBar() {
         <div className="flex items-center gap-4 text-xs text-white/70">
           <a href="/" className="hidden transition hover:text-white sm:inline">Home</a>
           <a href="#events" className="hidden transition hover:text-white sm:inline">Events</a>
-          <a href="#fund" className="hidden transition hover:text-white sm:inline">What we fund</a>
+          <a href="/proposal" className="transition hover:text-[#f5a623]">Proposal</a>
           <a href="#join" className="hidden transition hover:text-white sm:inline">Join</a>
           <a
             href={CONTACT}

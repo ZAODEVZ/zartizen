@@ -12,7 +12,9 @@ tier: DISPATCH
 
 > **Goal:** A build-ready plan to (1) create a dedicated **ZAO Festivals Fund** on Artizen so other festival/event organizers join under it, (2) run it well as a manager, and (3) keep submitting ZAO's own festivals into other aligned funds for stacked match. Includes a ready-to-submit fund proposal.
 
-> **Evolves [Doc 846](../846-zao-festivals-funding-strategy/)** which recommended keeping ONE fund. Zaal's decision is to create the Festivals fund - and the research supports it: running two funds is allowed, the festival-fund model is proven (Greenpill), and there is clear white space (no music/artist-led festival fund exists yet).
+> **SUPERSEDED IN PART (2026-06-14):** the "clear white space" premise below is WRONG. A full 79-fund scan found We're Loud Fund (DIY music festivals), Global Music Fund, and Greenpill already fund music events - and six ZAO music projects are already stacked in the Global Music Fund. **Current recommendation: do NOT create a new fund yet - curate ZAOstock/Zaoville INTO those existing funds.** See [research-audit.md](../research-audit.md), [priority-funds.md](../priority-funds.md), and the team proposal at `/proposal`. The "how to create + run a fund" mechanics below remain valid IF the team later decides to host other organizers.
+
+> **Evolves [Doc 846](../846-zao-festivals-funding-strategy/)** which recommended keeping ONE fund. (This doc had argued for creating a second fund on a white-space premise that is now corrected above.)
 
 ## Key Decisions
 

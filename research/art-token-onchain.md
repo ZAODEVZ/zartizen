@@ -43,11 +43,26 @@ Contract: `0x59fbbc7d9c579547b47f3669aab2aec5b58d63de` (Ethereum mainnet), token
   treasury out of the ART curve** until (a) the Juicebox treasury USDC backing is independently
   verifiable and (b) there's a published stress test. Run the fund, skip the token bet.
 
-## Follow-up to verify properly
+## UPDATE 2026-06-14 - found the Juicebox project, and the $14M is not there
 
-- Find the Juicebox `projectId` for Artizen (in the JBToken constructor / Juicebox directory) and inspect
-  the project's treasury balance on juicebox.money or the JB contracts - that is where the real
-  endowment USDC would show, and the only way to verify the $14M claim on-chain.
+The ART contract's embedded projectId is **587** (`0x24b`). Rendered Juicebox project 587:
+**"Artizen Fund" (@artizenfund), owned by nene.eth, created Oct 27 2023, total raised ~34.21 ETH
+(~$57k), 61 payments, last activity a year+ ago - dormant.** (v4/587 = 404; it's the v2 project.)
+
+So the on-chain Juicebox project the ART token points to holds **~34 ETH and is inactive** - nowhere near
+the **"$14,158,798 endowment"** shown on artizen.fund. The $14M is therefore **self-reported and not
+verifiable on-chain** in the project the token references. Possible explanations: the marketed endowment
+is a separate/off-chain or other-contract treasury, an aspirational/projected figure, or a different
+accounting. Either way, it is not confirmed by the on-chain footprint.
+
+**Hardened bottom line:** the platform mechanics are real, but the headline financial figure ($14M
+endowment) does not reconcile with on-chain reality (a 34-ETH, dormant JB project + a 72-holder token).
+Keep the ZAO treasury entirely out of ART, and do not repeat the $14M figure as fact in ZAO materials -
+attribute it to Artizen ("Artizen reports a ~$14M endowment") if cited at all.
+
+## Earlier follow-up (now resolved above)
+
+- ~~Find the Juicebox projectId and inspect the treasury.~~ Done: project 587, ~34 ETH, dormant.
 
 ## Sources
 

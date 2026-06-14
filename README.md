@@ -13,24 +13,31 @@ colliding with parallel sessions and stands on its own. Research provenance stil
 Web3 match-funding platform for art / science / tech / culture, founded by René Pinnell. Creators
 mint $10 open-edition "Artifact" NFTs (100% to creator, 0% platform fee, Ethereum mainnet). Every
 $1 of sales instantly unlocks $1 from each community Fund backing the project - match stacks across
-funds. Runs in seasons (Curate -> Compete). On top sits an ART token + Endowment (~$14M, June 2026)
-that funds the whole thing. Full deep-dive: [research/844](research/844-artizen-platform-deep-study/),
-[research/845](research/845-artizen-art-token-endowment-economics/).
+funds. Runs in seasons (Curate -> Compete). On top sits an ART token + a self-reported "$14M endowment"
+- but on-chain that token's Juicebox project holds ~34 ETH and is dormant, so treat the $14M as
+unverified (see [research/art-token-onchain.md](research/art-token-onchain.md)). Full deep-dive:
+[research/844](research/844-artizen-platform-deep-study/), [research/845](research/845-artizen-art-token-endowment-economics/).
 
-## The ZAO position (the strategy)
+## The ZAO position (the strategy - updated 2026-06-14)
 
-The ZAO already runs the **ZAO Fund for Emerging Culture** (Season 6, ~$22k raised, 32 projects).
-The plan from here:
+The ZAO already runs the **ZAO Fund for Emerging Culture** (Season 6). A full scan (79 funds) changed
+the plan - the proposal is now under team review ([/proposal](app/proposal/page.tsx)):
 
-1. **Manage two funds** - keep Emerging Culture (broad) + create a dedicated **ZAO Festivals Fund**
-   (music + artist-led IRL events). The festival lane is open white space: Greenpill owns regen
-   gatherings, Terminus owns network states, Hubs owns permanent spaces - nobody owns music festivals.
-2. **Run the whole portfolio as creators** - WaveWarZ, SongJam, ZAOstock, Thy Revolution, the ZABAL
-   Games cohort each submit as projects.
-3. **Stack** - cross-curate each project into multiple funds (proven: Edge Esmeralda is in both the
-   Greenpill fund and the ZAO fund right now). ZAOstock -> ZAO Festivals + Greenpill + Emerging Culture.
-4. **Show up** - Console (the social layer), Artizen LIVE (weekly show), DWeb Camp Village (Berlin,
-   Jul 8-12), and the René/Owocki relationship.
+1. **Curate into existing funds, don't rush to build a second one.** The "music white space" is gone -
+   We're Loud Fund (DIY music festivals), Global Music Fund, and Greenpill already fund music events,
+   and **six ZAO music projects are already stacked in the Global Music Fund**. So stack ZAOstock +
+   Zaoville into We're Loud + Global Music + Greenpill + ZAO Emerging Culture rather than create an 80th fund.
+2. **Run the whole portfolio as creators** - WaveWarZ, SongJam, ZAOstock, Zaoville, Thy Revolution, the
+   ZABAL Games cohort each submit as projects.
+3. **Stack across funds** - each project curates into 3-5 funds (see the stacking map in
+   [research/fund-directory.md](research/fund-directory.md)). Put ZOE/Hermes in the **Bonfires Fund**
+   (our knowledge-graph partner - Arun's DreamStarter + Abraham Nash are already there).
+4. **Activate the existing ZAO fund** - it is dormant this drive (~#23, ~$188); the real bottleneck is
+   getting people to collect its projects, not adding funds.
+5. **Show up** - Console (the social layer), Artizen LIVE, DWeb Camp Village (Berlin, Jul 8-12), and the
+   René / Bonfires / Edge City relationships.
+6. **A dedicated ZAO Festivals Fund is a later, bigger step** - only if ZAO wants to host other
+   organizers under it. Pending team input via [/proposal].
 
 ## Repo map
 
@@ -54,11 +61,23 @@ The plan from here:
 | `kit/daily-spotlights.md` | 32-post daily project-spotlight series |
 | `kit/launch-posts.md` | Share copy for the hub + Festivals umbrella (Farcaster/X/Console/TG/LinkedIn) |
 | `kit/operating-rhythm.md` | Daily/weekly/seasonal cadence + metrics to track |
-| `research/fund-directory.md` | Fund landscape + ZAO stacking map + cross-backing targets |
+| `research/fund-directory.md` | Full 79-fund landscape + ZAO stacking map + cross-backing targets |
+| `research/priority-funds.md` | Deep renders of Global Music + Bonfires funds + the Festivals re-decision |
+| `research/research-audit.md` | Critical audit: corrections (white-space, dormancy), gaps, next steps |
+| `research/art-token-onchain.md` | On-chain check: ART token + the unverified $14M endowment |
 | `research/rene-pinnell-digest.md` | René's thesis, roadmap, trackable targets, track record |
 | `research/community-fund-playbook.md` | How the best funds run + fill, as a model for ZAO |
 | `CLAUDE.md` | Repo context for collaborators + agents |
-| `page/artizen-page.tsx` | The zaoos.com/artizen hub page (Next.js, for reference/port) |
+
+## Live site pages
+
+The app (Next.js, deploy to Vercel) ships three shareable pages:
+
+| Route | What |
+|---|---|
+| `/` (`app/page.tsx`) | The ZAO Fund hub - daily featured project, searchable 32-project roster, like-minded funds, join path |
+| `/festivals` (`app/festivals/page.tsx`) | The ZAO Festivals umbrella - events (ZAOstock, Zaoville), where it fits, how to join |
+| `/proposal` (`app/proposal/page.tsx`) | **Shareable decision page for ZAO Festivals teammates** - create a fund vs curate into existing, with a call for input |
 
 ## Run + deploy the site
 
@@ -77,22 +96,24 @@ To deploy + share with the Artizen community:
 The homepage rotates a featured "Project of the day" automatically (server-side, by date), lists the
 full fund roster, shows the like-minded funds, and has a "join the fund" submit path.
 
-## Status (2026-06-13)
+## Status (2026-06-14)
 
-- Research: complete (8 docs).
-- zaoos.com/artizen hub page: shipped in ZAOOS (PR #844).
+- Research: complete + audited (15 docs incl. full 79-fund directory + on-chain checks).
+- Site: live (`/`, `/festivals`, `/proposal`) at zartizen.vercel.app.
 - Kit: drafted, ready to use.
-- ZAO Festivals Fund: proposal ready; NOT yet submitted (needs the René call).
-- Daily spotlight series: drafted, not yet posting.
+- Strategy: pivoted to **curate-into existing funds** (proposal under team review at `/proposal`).
+- ZAO Fund: dormant this drive - needs its projects activated.
 
 ## Next steps
 
-See [HANDOFF.md](HANDOFF.md). Top three:
-1. Send the René + Nate DM (`kit/outreach-drafts.md`) - book the call, ask the 3 open questions.
-2. Start the daily spotlight series (`kit/daily-spotlights.md`).
-3. Submit the ZAO Festivals Fund proposal (`kit/fund-proposal.md`) after the call.
+1. **Get team input on the proposal** - share `/proposal` (zartizen.vercel.app/proposal) with ZAO Festivals teammates.
+2. **Activate the ZAO fund this drive** - rally the community to collect its projects (`kit/outreach-drafts.md` #4).
+3. **Stack the events** - submit ZAOstock + Zaoville (`kit/make-festivals-on-artizen.md`) into We're Loud + Global Music + Greenpill + ZAO Emerging Culture.
+4. **Put ZOE/Hermes in the Bonfires fund** (warm partner).
+5. **Send the René DM** (`kit/outreach-drafts.md` #1) - only pursue a dedicated Festivals Fund if the team wants to host other organizers.
 
-## Open questions (need René)
+## Open questions
 
-1. Can one org run two funds? 2. Can a director curate their own project into their own fund?
-3. Does a second fund get its own $50K seed?
+- Team: Option A (create a fund) or Option B (curate into existing)? Weigh in at `/proposal`.
+- We're Loud Fund roster + curator contact (slug unresolved).
+- Verify the $14M endowment: render Juicebox project 587's full treasury (the ART token points there; it shows ~34 ETH on-chain).
