@@ -3,9 +3,16 @@
 // Provenance: research/843. Numbers are a point-in-time snapshot; the live fund is canonical.
 
 import { RosterExplorer } from './roster-explorer';
+import { fundStats } from './dashboard/data';
 
 const FUND_URL = 'https://artizen.thezao.com/';
 const SNAPSHOT_DATE = 'June 11, 2026';
+
+// Live fund stats come from the dashboard data (kept current by scripts/refresh.sh) so the
+// homepage never drifts from /dashboard.
+const FUND_RANK = fundStats.rank === null ? 'TBD' : `#${fundStats.rank}`;
+const FUND_POOL =
+  fundStats.poolUsd === null ? 'TBD' : `$${(Math.round(fundStats.poolUsd / 100) / 10).toFixed(1)}K`;
 
 interface Project {
   rank: number;
@@ -183,9 +190,9 @@ export default function ArtizenPage() {
 
         {/* Stats */}
         <section className="mb-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
-          <Stat label="Fund rank" value="#11" />
+          <Stat label="Fund rank" value={FUND_RANK} />
           <Stat label="Projects backed" value={String(PROJECTS.length)} />
-          <Stat label="Fund pool" value="$10.5K" />
+          <Stat label="Fund pool" value={FUND_POOL} />
           <Stat label="Artifact volume" value={usd(totalSales)} />
         </section>
         <p className="mb-12 text-xs text-white/40">
