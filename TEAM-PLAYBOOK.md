@@ -78,7 +78,10 @@ cross-back 2-3 projects), per season (curate the cohort, then drive sales, then 
 ## Where everything is
 
 - `kit/` - copy-paste tools: outreach drafts, submission template, daily spotlights, artifact briefs,
-  launch posts, sponsor one-pager, Rene call brief, operating rhythm.
+  launch posts, sponsor one-pager, Rene call brief, operating rhythm. New this round:
+  - `kit/new-artist-briefs.md` - submission briefs for Marie Chain, COC Concertz, PolyRaiders, WaveWarZ Zambia.
+  - `kit/crew-mobilization.md` - the GC-ready "sign up, buy, boost" rally + how to run one.
+  - `kit/standings-tracker.md` - the ZAO Fund scoreboard to update each drive (the proof we bring to Rene).
 - `research/` - the deep dives: platform study (844), ART/endowment economics (845), funding strategy (846),
   ecosystem playbook (847), fund-creation playbook (850), fund directory + stacking map (fund-directory.md),
   Rene digest, on-chain token reality check (art-token-onchain.md).
