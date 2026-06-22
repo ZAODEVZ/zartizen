@@ -34,9 +34,12 @@ does what. The front door for humans and agents.
 
 ## How we win (keep accurate)
 
-The Artizen Prize goes to the project that **sells the most Artifacts (count)** - NOT the most boosts.
-Boosts/voting are a separate visibility layer. So the lever is many people each buying a $10 Artifact
-(the ZAO crowd advantage), not a few big checks. Winning Artifact = square 1:1, video/GIF, no text.
+Rank = **Boost Score = (sales + match unlocked) x boost points received / 100** (official playbook,
+play.artizen.fund). Multiplicative - boosts multiply dollars, you need BOTH. A project that sells the most
+dollars but gets few boosts LOSES (playbook's own example). So the lever is the crowd doing two things:
+buy $10 Artifacts AND cast Boosts (free). Boost points come from holding ART, donating to the Endowment,
+completing profile, attending events. Winning Artifact = square 1:1, video/GIF, no text. (Doc 887 - this
+corrects the earlier "most sales wins" framing.)
 
 ## Live site + deploy
 

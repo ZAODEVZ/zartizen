@@ -37,7 +37,7 @@ export default function RallyPage() {
           <a href={FUND_URL} className="text-[#f5a623] underline">
             ZAO Fund
           </a>
-          . The project that sells the most wins a cash prize. We win by showing up together.
+          . Rank = (sales + match) x boosts, so buying AND boosting both count. We win by showing up together.
         </p>
       </header>
 

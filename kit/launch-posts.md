@@ -85,7 +85,7 @@ zaoartizen.vercel.app and zaoartizen.vercel.app/festivals.
 > 1. Sign up at artizen.thezao.com
 > 2. Buy the $10 Artifact of the project we are pushing: [LINK]
 > 3. Boost it + reshare
-> Every $10 you spend gets doubled by our fund. The project that sells the most wins a prize. We win by
+> Every $10 you spend gets doubled by our fund, and boosting is free - rank counts both, so do both. We win by
 > showing up together. Live: zaoartizen.vercel.app/rally
 
 ---

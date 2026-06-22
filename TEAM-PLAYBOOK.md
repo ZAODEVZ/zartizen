@@ -24,10 +24,13 @@ mix them up:
 The money: every $1 a fan spends on an Artifact unlocks $1 from EACH Fund backing that Project (it stacks
 across Funds). Of a Fund's capital, 90% is match, 10% is an end-of-season cash prize for its top Project.
 
-**How you WIN (the part people get wrong):** the prize goes to the Project that **sells the most Artifacts
-(count of copies)** - not the one that raises the most dollars, and NOT the one with the most boosts. Boosts
-and voting are a separate visibility layer; they help you get seen, but the prize is decided by sales count.
-So: many people each buying a $10 Artifact beats a few big buys. That is exactly the ZAO's crowd advantage.
+**How you WIN (confirmed from the official playbook, play.artizen.fund):** rank = **Boost Score = (sales +
+match unlocked) x boost points received / 100**. It is MULTIPLICATIVE - boosts multiply your dollars, so you
+need BOTH. The playbook's own example: a project that sold the most dollars finished LAST because it had
+almost no boosts; a project with fewer dollars but a boost-rich crowd took #1. So rally your people to do
+TWO free-or-cheap things: **buy $10 Artifacts AND cast Boosts** (boosting is free). Boost points come from
+holding ART, donating to the Endowment, completing your profile, and attending events. (This corrects the
+earlier "most sales wins" framing - see ZAOOS research doc 887.)
 
 **Winning Artifact spec:** square 1:1 (min 1000x1000), video/GIF performs best, NO text or graphic overlay.
 

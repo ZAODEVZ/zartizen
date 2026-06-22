@@ -57,7 +57,8 @@ export default function DashboardPage() {
             ZAO Fund for Emerging Culture
           </a>
           . We measure match <strong>deployed</strong> (not deposited) and the crowd we move - the proof we
-          bring to Rene. Win condition: the project that sells the most Artifacts.
+          bring to Rene. Win = Boost Score = (sales + match) x boost points / 100 - boosts multiply dollars, so
+          rally both buys and Boosts.
         </p>
         <p className="mt-2 text-xs text-white/40">
           Updated {fundStats.lastUpdated} by {fundStats.updatedBy}. Edit{' '}

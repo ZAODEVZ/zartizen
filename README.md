@@ -9,7 +9,7 @@ colliding with parallel sessions and stands on its own. Research provenance stil
 (PR #844); this repo is the operating home.
 
 > **New to this? Start with [TEAM-PLAYBOOK.md](TEAM-PLAYBOOK.md)** - how Artizen works, how we win
-> (most Artifacts sold, not boosts), our permissionless-first strategy, and who does what.
+> (Boost Score = (sales + match) x boost points - buy AND boost), our permissionless-first strategy, and who does what.
 
 ## What Artizen is (60 seconds)
 

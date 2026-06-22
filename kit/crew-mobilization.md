@@ -1,8 +1,10 @@
 # Crew mobilization - the GC-ready rally
 
-The single most important lever on Artizen is the crowd. The prize goes to the project that sells the MOST
-Artifacts (count of buyers), and signups + contributions earn the boosts that drive visibility. Many people
-each putting in $10 beats a few big checks. This file is the copy you drop in the group chat to move people.
+The single most important lever on Artizen is the crowd. Rank = Boost Score = (sales + match) x boost points
+/ 100 (official playbook) - boosts MULTIPLY dollars, so the crowd needs to do two things: buy $10 Artifacts
+AND cast Boosts (boosting is free). Many people each buying $10 + boosting beats a few big checks with no
+boosts (a project that sold the most but had few boosts finished LAST in the playbook's own example). This
+file is the copy you drop in the group chat to move people.
 
 ## The 3 steps (paste this in the GC)
 

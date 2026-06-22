@@ -34,8 +34,10 @@ ETH Boulder + Ven = warm intro). Don't rush a second fund - curate ZAOstock/Zaov
 
 ## Key findings / decisions on record (live, 2026-06-21)
 
-- **Win condition: most Artifacts SOLD (count) wins the prize - NOT boosts.** Boosts = a separate visibility
-  layer. Lever = many people each buying a $10 Artifact. Winning Artifact = square, video/GIF, no text.
+- **Win condition (official playbook): Boost Score = (sales + match) x boost points / 100.** Boosts MULTIPLY
+  dollars - need BOTH. A project that sold the most but had few boosts finished LAST. Lever = the crowd buying
+  $10 Artifacts AND casting Boosts (free). Boost points from holding ART / Endowment / profile / events.
+  Winning Artifact = square, video/GIF, no text. (Doc 887 corrected the earlier "most sales wins" claim.)
 - ZAO Fund (scraped live): rank **#11**, pool **$10,547**, match deployed **$4,262**, remaining **$6,331**.
   Standings move daily - re-scrape (`scripts/refresh.sh`) before quoting.
 - PolyRaiders = HuRya Empowerment Foundation (Moses), **#22, ~$1,200** (call's "#17/$14k" was misheard).
