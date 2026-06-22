@@ -65,6 +65,24 @@ export default function DashboardPage() {
         </p>
       </header>
 
+      {fundStats.matchRemainingUsd !== null && fundStats.matchRemainingUsd > 0 ? (
+        <div className="mb-8 rounded-xl border border-[#f5a623]/40 bg-[#f5a623]/10 p-4">
+          <div className="text-sm font-semibold text-[#f5a623]">
+            {usd(fundStats.matchRemainingUsd)} in match is unspent
+            {fundStats.activeDrive ? ` - ${fundStats.activeDrive}` : ''}
+            {fundStats.driveDeadline ? ` (${fundStats.driveDeadline})` : ''}
+          </div>
+          <p className="mt-1 text-sm text-white/70">
+            This is the live lever. Every $10 the crew buys on a curated project unlocks $1-for-$1 from this
+            pool before the drive closes. Pick one horse, rally everyone, deploy the match. See{' '}
+            <a href="/leaderboard" className="text-[#f5a623] underline">
+              the field
+            </a>{' '}
+            for who has headroom.
+          </p>
+        </div>
+      ) : null}
+
       <section className="mb-10">
         <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-white/50">Fund - now</h2>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
