@@ -35,7 +35,7 @@ export default function OpengraphImage() {
           </div>
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: 28, color: 'rgba(255,255,255,0.55)' }}>
-          <div style={{ display: 'flex' }}>zartizen.vercel.app</div>
+          <div style={{ display: 'flex' }}>zaoartizen.vercel.app</div>
           <div style={{ display: 'flex', color: '#f5a623' }}>artizen.thezao.com</div>
         </div>
       </div>
