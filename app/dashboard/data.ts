@@ -44,21 +44,21 @@ export interface ProofEntry {
 
 // --- EDIT BELOW ---
 
-// Live numbers scraped from artizen.thezao.com on 2026-06-21 (re-check before quoting; they move daily).
+// Live numbers from artizen.thezao.com, confirmed 2026-06-22 (re-check before quoting; they move daily).
 export const fundStats: FundStats = {
-  rank: 11,
-  scoreLabel: '522.19',
-  prizeUsd: 4262,
+  rank: 13,
+  scoreLabel: '526.11',
+  prizeUsd: 2438,
   poolUsd: 10547,
-  matchDeployedUsd: 4262, // "RAISED" on Artizen
+  matchDeployedUsd: 2438, // "RAISED" on Artizen
   matchRemainingUsd: 6331, // "AVAILABLE" on Artizen
   projectsCurated: null, // confirm from the logged-in curator view
   signupsDriven: null,
   activeDrive: 'Flourish Fund Drive',
   driveMultiplier: null, // confirm current multiplier
-  driveDeadline: 'ends in ~3 days (≈2026-06-24)',
-  lastUpdated: '2026-06-21',
-  updatedBy: 'Zaal (scraped)',
+  driveDeadline: 'ends in ~3 days (≈2026-06-25)',
+  lastUpdated: '2026-06-22',
+  updatedBy: 'Zaal (confirmed)',
 };
 
 // Sales/ranks are season-leaderboard figures scraped 2026-06-21.

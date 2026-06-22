@@ -13,6 +13,10 @@ const SNAPSHOT_DATE = 'June 11, 2026';
 const FUND_RANK = fundStats.rank === null ? 'TBD' : `#${fundStats.rank}`;
 const FUND_POOL =
   fundStats.poolUsd === null ? 'TBD' : `$${(Math.round(fundStats.poolUsd / 100) / 10).toFixed(1)}K`;
+const FUND_AVAILABLE =
+  fundStats.matchRemainingUsd === null
+    ? 'TBD'
+    : `$${(Math.round(fundStats.matchRemainingUsd / 100) / 10).toFixed(1)}K`;
 
 interface Project {
   rank: number;
@@ -85,9 +89,6 @@ const LIKEMINDED: LikemindedFund[] = [
   { name: 'Hubs Network Fund for Solarpunk Spaces', theme: 'Independent physical spaces for culture, care, and governance' },
 ];
 
-function usd(n: number): string {
-  return `$${n.toLocaleString('en-US')}`;
-}
 
 // Day-of-year, so the featured project rotates through the roster once per day
 // without any client JS. Server-rendered; ISR keeps it fresh.
@@ -109,7 +110,6 @@ function Stat({ label, value }: { label: string; value: string }) {
 export const revalidate = 3600; // ISR: refresh hourly
 
 export default function ArtizenPage() {
-  const totalSales = PROJECTS.reduce((sum, p) => sum + p.sales, 0);
   const featured = PROJECTS[dayOfYear(new Date()) % PROJECTS.length];
 
   return (
@@ -193,7 +193,7 @@ export default function ArtizenPage() {
           <Stat label="Fund rank" value={FUND_RANK} />
           <Stat label="Projects backed" value={String(PROJECTS.length)} />
           <Stat label="Fund pool" value={FUND_POOL} />
-          <Stat label="Artifact volume" value={usd(totalSales)} />
+          <Stat label="Match available" value={FUND_AVAILABLE} />
         </section>
         <p className="mb-12 text-xs text-white/40">
           Snapshot. Live standings + match headroom on the{' '}
