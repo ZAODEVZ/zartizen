@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { fundStats, backedProjects, horse, proofLog } from './data';
+import { fundStats, backedProjects, horse, proofLog, crossbackFunds } from './data';
 
 // /dashboard - the ZAO Fund scoreboard. Tracks the proof metrics (match DEPLOYED,
 // buyers moved, projects climbed) that become the Phase 2 pitch to Rene. Data lives
@@ -201,6 +201,36 @@ export default function DashboardPage() {
             </table>
           </div>
         )}
+      </section>
+
+      <section className="mb-10">
+        <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-white/50">
+          Cross-back targets
+        </h2>
+        <p className="mb-3 text-sm text-white/60">
+          Get our projects curated into these funds too - each one adds another $1-for-$1 match stream on every
+          Artifact sale (stacking). Pools from research; re-check live.
+        </p>
+        <div className="overflow-x-auto rounded-xl border border-white/10">
+          <table className="w-full text-left text-sm">
+            <thead className="bg-white/5 text-white/50">
+              <tr>
+                <th className="px-3 py-2 font-medium">Fund</th>
+                <th className="px-3 py-2 font-medium">Pool</th>
+                <th className="px-3 py-2 font-medium">Stack our projects</th>
+              </tr>
+            </thead>
+            <tbody>
+              {crossbackFunds.map((f) => (
+                <tr key={f.fund} className="border-t border-white/10">
+                  <td className="px-3 py-2 font-medium">{f.fund}</td>
+                  <td className="px-3 py-2 text-[#f5a623]">{usd(f.poolUsd)}</td>
+                  <td className="px-3 py-2 text-white/60">{f.fitFor}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </section>
 
       <footer className="border-t border-white/10 pt-6 text-xs text-white/40">

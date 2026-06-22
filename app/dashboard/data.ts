@@ -131,3 +131,19 @@ export const proofLog: ProofEntry[] = [
   // Newest first. Add one row per drive after each rally.
   // { drive: 'Frontier', horse: 'PolyRaiders', buyersMoved: 0, rankChange: '17 -> 0', matchDeployedUsd: 0, win: false },
 ];
+
+export interface CrossbackFund {
+  fund: string;
+  poolUsd: number | null; // pool from the fund-directory research (re-check live before quoting)
+  fitFor: string; // which ZAO projects should stack into it
+}
+
+// Cross-back targets: funds to get ZAO projects curated into so each $1 sale stacks match.
+// Pool sizes from research/fund-directory.md (79-fund scan); re-scrape before quoting publicly.
+export const crossbackFunds: CrossbackFund[] = [
+  { fund: 'Greenpill Fund (Regen Gatherings)', poolUsd: 37149, fitFor: 'ZAOstock, Zaoville' },
+  { fund: "We're Loud Fund (DIY Music Festivals)", poolUsd: 3784, fitFor: 'COC Concertz, ZAOstock, WaveWarZ Zambia' },
+  { fund: 'Global Music Fund', poolUsd: 256, fitFor: 'Thy Rev, COC Concertz, WaveWarZ Zambia, Impact Concerts' },
+  { fund: 'Bonfires Fund (Agentic Creativity)', poolUsd: 104, fitFor: 'ZOE / Hermes (ZAO KG partner)' },
+  { fund: 'Music + Healing Fund', poolUsd: 103, fitFor: 'COC Concertz' },
+];
