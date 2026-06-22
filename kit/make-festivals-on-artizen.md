@@ -40,7 +40,7 @@ community-owned culture.
 
 **Team:** Zaal (The ZAO) + ZAO Festivals collaborators
 
-**Links:** zaoos.com - artizen.thezao.com - zartizen.vercel.app/festivals
+**Links:** zaoos.com - artizen.thezao.com - zaoartizen.vercel.app/festivals
 
 **Funds to target (curate into all that apply):** ZAO Fund for Emerging Culture + Greenpill Fund for
 Regenerative Gatherings + (the ZAO Festivals Fund once it is live)
@@ -74,7 +74,7 @@ no text overlay - a clip or image that captures the ZAOstock / Ellsworth-parklet
 
 **Team:** Dcoop + ZAO Festivals / The ZAO
 
-**Links:** zaoos.com - zartizen.vercel.app/festivals
+**Links:** zaoos.com - zaoartizen.vercel.app/festivals
 
 **Funds to target:** ZAO Fund for Emerging Culture + Greenpill Fund for Regenerative Gatherings + (the
 ZAO Festivals Fund once it is live)
@@ -101,7 +101,7 @@ The fund settings to enter when approved:
   public; fair artist compensation; a public-facing culmination.
 - **Seed:** $50K Artizen + ZAO treasury as a Founding Sponsor (confirm on the call).
 
-The /festivals page (zartizen.vercel.app/festivals) is already live to recruit organizers + sponsors
+The /festivals page (zaoartizen.vercel.app/festivals) is already live to recruit organizers + sponsors
 into it before launch.
 
 ---

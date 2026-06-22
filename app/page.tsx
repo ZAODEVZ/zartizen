@@ -321,7 +321,7 @@ export default function ArtizenPage() {
               <a href={FUND_URL} target="_blank" rel="noopener noreferrer" className="transition hover:text-white">The fund</a>
               <a href="https://artizen.fund" target="_blank" rel="noopener noreferrer" className="transition hover:text-white">Artizen</a>
               <a href="https://zaoos.com" target="_blank" rel="noopener noreferrer" className="transition hover:text-white">The ZAO</a>
-              <a href="https://github.com/ZAODEVZ/zartizen" target="_blank" rel="noopener noreferrer" className="transition hover:text-white">GitHub</a>
+              <a href="https://github.com/ZAODEVZ/ZAOartizen" target="_blank" rel="noopener noreferrer" className="transition hover:text-white">GitHub</a>
             </nav>
             <p className="text-[11px] leading-relaxed text-white/35">
               ZArtizen - the ZAO Fund for Emerging Culture on Artizen. Standings are a snapshot

@@ -11,9 +11,9 @@ stop colliding the work.
 
 ## Live site (deploy via Vercel)
 
-- **https://zartizen.vercel.app** - the ZAO Fund hub (daily featured project, searchable 32-project roster, like-minded funds).
-- **https://zartizen.vercel.app/festivals** - the ZAO Festivals umbrella (ZAOstock, Zaoville, how to join).
-- **https://zartizen.vercel.app/proposal** - SHAREABLE decision page for ZAO Festivals teammates (create a fund vs curate into existing, with a call for input). Send this one around for feedback.
+- **https://zaoartizen.vercel.app** - the ZAO Fund hub (daily featured project, searchable 32-project roster, like-minded funds).
+- **https://zaoartizen.vercel.app/festivals** - the ZAO Festivals umbrella (ZAOstock, Zaoville, how to join).
+- **https://zaoartizen.vercel.app/proposal** - SHAREABLE decision page for ZAO Festivals teammates (create a fund vs curate into existing, with a call for input). Send this one around for feedback.
 
 ## The headline decision (needs team input)
 

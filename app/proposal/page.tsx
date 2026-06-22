@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 // research/priority-funds.md + research/research-audit.md + research/fund-directory.md.
 
 const CONTACT = 'mailto:zaal@thezao.com?subject=ZAO%20Festivals%20Artizen%20proposal%20-%20my%20input';
-const REPO = 'https://github.com/ZAODEVZ/zartizen';
+const REPO = 'https://github.com/ZAODEVZ/ZAOartizen';
 
 export const metadata: Metadata = {
   title: 'ZAO Festivals on Artizen - proposal for team input',

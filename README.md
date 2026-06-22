@@ -74,13 +74,17 @@ the plan - the proposal is now under team review ([/proposal](app/proposal/page.
 
 ## Live site pages
 
-The app (Next.js, deploy to Vercel) ships three shareable pages:
+The app (Next.js, live at **https://zaoartizen.vercel.app**) ships these pages:
 
 | Route | What |
 |---|---|
-| `/` (`app/page.tsx`) | The ZAO Fund hub - daily featured project, searchable 32-project roster, like-minded funds, join path |
+| `/` (`app/page.tsx`) | The ZAO Fund hub - daily featured project, searchable roster, like-minded funds, join path |
+| `/dashboard` (`app/dashboard/page.tsx`) | **Live ZAO Fund scoreboard** - rank, match deployed/remaining, backed projects, cross-back targets, proof log. Data in `app/dashboard/data.ts`; refresh with `scripts/refresh.sh` |
+| `/leaderboard` (`app/leaderboard/page.tsx`) | Season 6 field snapshot (all 35 projects), ZAO ties flagged |
+| `/rally` (`app/rally/page.tsx`) | **GC-shareable 3-step crew CTA** - sign up, buy the $10 Artifact, boost |
+| `/apply` (`app/apply/page.tsx`) | **Artist-facing** - what the fund backs, eligibility, how to get in. Send to applicants |
 | `/festivals` (`app/festivals/page.tsx`) | The ZAO Festivals umbrella - events (ZAOstock, Zaoville), where it fits, how to join |
-| `/proposal` (`app/proposal/page.tsx`) | **Shareable decision page for ZAO Festivals teammates** - create a fund vs curate into existing, with a call for input |
+| `/proposal` (`app/proposal/page.tsx`) | Shareable decision page - create a fund vs curate into existing |
 
 ## Run + deploy the site
 
@@ -93,7 +97,7 @@ npm run build    # production build (verified green)
 ```
 
 To deploy + share with the Artizen community:
-- Connect `ZAODEVZ/zartizen` to Vercel (Import Project) - it auto-builds on every push, no config needed.
+- Connect `ZAODEVZ/ZAOartizen` to Vercel (Import Project) - it auto-builds on every push, no config needed.
 - Or from the repo: `npx vercel --prod` (requires a Vercel login).
 
 The homepage rotates a featured "Project of the day" automatically (server-side, by date), lists the
@@ -102,14 +106,14 @@ full fund roster, shows the like-minded funds, and has a "join the fund" submit 
 ## Status (2026-06-14)
 
 - Research: complete + audited (15 docs incl. full 79-fund directory + on-chain checks).
-- Site: live (`/`, `/festivals`, `/proposal`) at zartizen.vercel.app.
+- Site: live (`/`, `/festivals`, `/proposal`) at zaoartizen.vercel.app.
 - Kit: drafted, ready to use.
 - Strategy: pivoted to **curate-into existing funds** (proposal under team review at `/proposal`).
 - ZAO Fund: dormant this drive - needs its projects activated.
 
 ## Next steps
 
-1. **Get team input on the proposal** - share `/proposal` (zartizen.vercel.app/proposal) with ZAO Festivals teammates.
+1. **Get team input on the proposal** - share `/proposal` (zaoartizen.vercel.app/proposal) with ZAO Festivals teammates.
 2. **Activate the ZAO fund this drive** - rally the community to collect its projects (`kit/outreach-drafts.md` #4).
 3. **Stack the events** - submit ZAOstock + Zaoville (`kit/make-festivals-on-artizen.md`) into We're Loud + Global Music + Greenpill + ZAO Emerging Culture.
 4. **Put ZOE/Hermes in the Bonfires fund** (warm partner).

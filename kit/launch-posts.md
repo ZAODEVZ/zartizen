@@ -1,7 +1,7 @@
 # Launch posts - share the ZArtizen hub + Festivals umbrella
 
 Copy-paste announcements. No emojis, no em dashes. Swap [brackets]. Links:
-zartizen.vercel.app and zartizen.vercel.app/festivals.
+zaoartizen.vercel.app and zaoartizen.vercel.app/festivals.
 
 ---
 
@@ -13,13 +13,13 @@ zartizen.vercel.app and zartizen.vercel.app/festivals.
 > project featured every day, and back the ones you love - every $10 collected unlocks matching from the
 > fund, straight to the creator.
 >
-> zartizen.vercel.app
+> zaoartizen.vercel.app
 >
 > This is what the ZAO fund is for. ZAO backs ZAO.
 
 **Short version (X):**
 > The ZAO Fund for Emerging Culture, in one place. 32 projects, a new one featured daily, all backed by
-> our community match fund on Artizen. Collect a project = unlock the match. zartizen.vercel.app
+> our community match fund on Artizen. Collect a project = unlock the match. zaoartizen.vercel.app
 
 ---
 
@@ -33,17 +33,17 @@ zartizen.vercel.app and zartizen.vercel.app/festivals.
 >
 > A fund run by the people who throw the festivals - backing our own events and the artists in them.
 >
-> zartizen.vercel.app/festivals
+> zaoartizen.vercel.app/festivals
 
 **Short version (X):**
 > ZAO Festivals: a home + fund for music festivals and artist-led IRL events. ZAOstock + Zaoville +
-> yours - run by people who throw them. zartizen.vercel.app/festivals
+> yours - run by people who throw them. zaoartizen.vercel.app/festivals
 
 ---
 
 ## C. Telegram / group chats (ZAO + allies)
 
-> New: the ZAO Artizen hub is live -> zartizen.vercel.app
+> New: the ZAO Artizen hub is live -> zaoartizen.vercel.app
 >
 > It is every project in our fund in one place, a daily featured project, and the like-minded funds we
 > stack with. Plus the new ZAO Festivals umbrella (ZAOstock, Zaoville) at /festivals.
@@ -57,16 +57,16 @@ zartizen.vercel.app and zartizen.vercel.app/festivals.
 ## D. Console (Artizen's community)
 
 > Hey Artizen - The ZAO here. We run the ZAO Fund for Emerging Culture, and we just built a hub for it:
-> zartizen.vercel.app. Every project in the fund, a daily spotlight, and the funds we cross-curate with.
+> zaoartizen.vercel.app. Every project in the fund, a daily spotlight, and the funds we cross-curate with.
 >
-> We are also standing up a ZAO Festivals Fund for music + artist-led IRL events (zartizen.vercel.app/festivals)
+> We are also standing up a ZAO Festivals Fund for music + artist-led IRL events (zaoartizen.vercel.app/festivals)
 > - the lane no fund owns yet. If you run live culture or want to back it, come say hi.
 
 ---
 
 ## E. LinkedIn / longer-form
 
-> The ZAO Fund for Emerging Culture now has a home: zartizen.vercel.app
+> The ZAO Fund for Emerging Culture now has a home: zaoartizen.vercel.app
 >
 > We back independent musicians, artists, and technologists building collaborative cultural experiences,
 > through a community match fund on Artizen - where every dollar a creator raises is matched, paid

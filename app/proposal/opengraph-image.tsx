@@ -35,7 +35,7 @@ export default function ProposalOpengraphImage() {
           </div>
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: 28, color: 'rgba(255,255,255,0.55)' }}>
-          <div style={{ display: 'flex' }}>zartizen.vercel.app/proposal</div>
+          <div style={{ display: 'flex' }}>zaoartizen.vercel.app/proposal</div>
           <div style={{ display: 'flex', color: '#f5a623' }}>ZAO Festivals</div>
         </div>
       </div>
