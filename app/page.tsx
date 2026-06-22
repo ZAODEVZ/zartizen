@@ -196,7 +196,8 @@ export default function ArtizenPage() {
           <Stat label="Match available" value={FUND_AVAILABLE} />
         </section>
         <p className="mb-12 text-xs text-white/40">
-          Snapshot. Live standings + match headroom on the{' '}
+          Fund rank + pool as of {fundStats.lastUpdated} (they move daily). Live standings + match headroom on
+          the{' '}
           <a href="/dashboard" className="text-[#f5a623] underline-offset-2 hover:underline">
             dashboard
           </a>
