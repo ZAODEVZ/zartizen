@@ -4,9 +4,11 @@
 
 export interface FundStats {
   rank: number | null; // rank among all Artizen funds
+  scoreLabel: string | null; // the fund's SCORE as shown on Artizen
+  prizeUsd: number | null; // current prize for the fund's top project
   poolUsd: number | null; // total deposited into the fund
-  matchDeployedUsd: number | null; // THE KPI - match actually unlocked by sales
-  matchRemainingUsd: number | null; // undeployed match still in the pool
+  matchDeployedUsd: number | null; // THE KPI - match actually unlocked by sales (the "raised" figure)
+  matchRemainingUsd: number | null; // undeployed match still in the pool (the "available" figure)
   projectsCurated: number | null;
   signupsDriven: number | null; // community signups we drove onto Artizen
   activeDrive: string | null; // e.g. "Frontier Fund Drive"
@@ -20,8 +22,8 @@ export interface BackedProject {
   name: string;
   inFund: 'yes' | 'no' | 'after vote';
   otherFunds: string; // funds it is stacked into (or target)
-  artifactsSold: number | null;
-  rank: number | null;
+  salesUsd: number | null; // dollar value of Artifacts sold (as Artizen displays it)
+  rank: number | null; // season leaderboard rank
   notes: string;
 }
 
@@ -42,42 +44,62 @@ export interface ProofEntry {
 
 // --- EDIT BELOW ---
 
+// Live numbers scraped from artizen.thezao.com on 2026-06-21 (re-check before quoting; they move daily).
 export const fundStats: FundStats = {
-  rank: null,
-  poolUsd: null,
-  matchDeployedUsd: null,
-  matchRemainingUsd: null,
-  projectsCurated: null,
+  rank: 11,
+  scoreLabel: '522.19',
+  prizeUsd: 4262,
+  poolUsd: 10547,
+  matchDeployedUsd: 4262, // "RAISED" on Artizen
+  matchRemainingUsd: 6331, // "AVAILABLE" on Artizen
+  projectsCurated: null, // confirm from the logged-in curator view
   signupsDriven: null,
-  activeDrive: null,
-  driveMultiplier: null,
-  driveDeadline: null,
+  activeDrive: 'Flourish Fund Drive',
+  driveMultiplier: null, // confirm current multiplier
+  driveDeadline: 'ends in ~3 days (≈2026-06-24)',
   lastUpdated: '2026-06-21',
-  updatedBy: 'Zaal',
+  updatedBy: 'Zaal (scraped)',
 };
 
+// Sales/ranks are season-leaderboard figures scraped 2026-06-21.
 export const backedProjects: BackedProject[] = [
   {
     name: 'InfiniteZero Network',
     inFund: 'yes',
     otherFunds: 'Funding the Commons',
-    artifactsSold: null,
-    rank: null,
-    notes: '#1 historically; stacked ZAO Fund + FTC',
+    salesUsd: 46021,
+    rank: 1,
+    notes: '#1 on the season board (Abraham Nash)',
   },
   {
-    name: 'PolyRaiders (Moses)',
+    name: 'Edge Esmeralda 2026',
+    inFund: 'yes',
+    otherFunds: 'Human Flourishing',
+    salesUsd: 30569,
+    rank: 2,
+    notes: 'Telamon Ardavanis (doc 674)',
+  },
+  {
+    name: 'PolyRaiders (HuRya Empowerment Foundation)',
     inFund: 'no',
     otherFunds: '',
-    artifactsSold: null,
-    rank: 17,
-    notes: 'already ~$14k; curate in + boost push',
+    salesUsd: 1200,
+    rank: 22,
+    notes: 'Moses; curate in + boost push. Cause: dignity for girls (pads, education)',
+  },
+  {
+    name: 'The Impact Concerts',
+    inFund: 'yes',
+    otherFunds: '',
+    salesUsd: 30,
+    rank: 32,
+    notes: 'EZinCrypto; possible Jose tie (doc 745)',
   },
   {
     name: 'Marie Chain',
     inFund: 'after vote',
     otherFunds: '',
-    artifactsSold: null,
+    salesUsd: null,
     rank: null,
     notes: 'applied; intro sent 2026-06-21',
   },
@@ -85,7 +107,7 @@ export const backedProjects: BackedProject[] = [
     name: 'COC Concertz',
     inFund: 'after vote',
     otherFunds: "We're Loud / Global Music (target)",
-    artifactsSold: null,
+    salesUsd: null,
     rank: null,
     notes: 'Thy Rev leads; 50/50 JV',
   },
@@ -93,7 +115,7 @@ export const backedProjects: BackedProject[] = [
     name: 'WaveWarZ Zambia',
     inFund: 'after vote',
     otherFunds: 'Global Music (target)',
-    artifactsSold: null,
+    salesUsd: null,
     rank: null,
     notes: 'Iman lead; pilot one artist',
   },

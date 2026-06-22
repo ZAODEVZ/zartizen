@@ -70,6 +70,8 @@ export default function DashboardPage() {
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
           <StatCard label="Match deployed" value={usd(fundStats.matchDeployedUsd)} hero />
           <StatCard label="Fund rank" value={fundStats.rank === null ? 'TBD' : `#${fundStats.rank}`} />
+          <StatCard label="Score" value={txt(fundStats.scoreLabel)} />
+          <StatCard label="Prize" value={usd(fundStats.prizeUsd)} />
           <StatCard label="Pool (deposited)" value={usd(fundStats.poolUsd)} />
           <StatCard label="Match remaining" value={usd(fundStats.matchRemainingUsd)} />
           <StatCard label="Projects curated" value={num(fundStats.projectsCurated)} />
@@ -111,7 +113,7 @@ export default function DashboardPage() {
                 <th className="px-3 py-2 font-medium">Project</th>
                 <th className="px-3 py-2 font-medium">In fund</th>
                 <th className="px-3 py-2 font-medium">Other funds</th>
-                <th className="px-3 py-2 font-medium">Sold</th>
+                <th className="px-3 py-2 font-medium">Sales ($)</th>
                 <th className="px-3 py-2 font-medium">Rank</th>
                 <th className="px-3 py-2 font-medium">Notes</th>
               </tr>
@@ -134,7 +136,7 @@ export default function DashboardPage() {
                     </span>
                   </td>
                   <td className="px-3 py-2 text-white/60">{p.otherFunds || '-'}</td>
-                  <td className="px-3 py-2">{num(p.artifactsSold)}</td>
+                  <td className="px-3 py-2">{usd(p.salesUsd)}</td>
                   <td className="px-3 py-2">{p.rank === null ? 'TBD' : `#${p.rank}`}</td>
                   <td className="px-3 py-2 text-white/50">{p.notes}</td>
                 </tr>
