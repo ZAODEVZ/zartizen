@@ -4,18 +4,21 @@ Where ZAO's existing assets and Artizen's mechanics combine for more than the su
 zaostock repo audit (ZAODEVZ/zaostock, 2026-06-23) + the Artizen playbook (doc 887). Each synergy =
 the combination + the concrete move.
 
-## 1. 501(c)(3) x Artizen match x sponsor tracks = the strongest sponsor pitch in the ecosystem
+## 1. Two donor paths, donor's choice: tax-deductible OR matched (NOT both)
 
-ZAOstock has **501(c)(3) fiscal sponsorship via Fractured Atlas / New Media Commons**. Stack that with
-Artizen and a sponsor dollar does THREE things at once:
-- **Tax-deductible** (via the 501c3),
-- **Unlocks Artizen match** (every $1 sponsorship unlocks match at the week's multiplier),
-- **Earns the Presenting Sponsor slot** (king-of-the-hill on the fund hero).
+CORRECTION (per René, 2026-06-22 call): tax-deductible giving and Artizen match are **either/or on the same
+dollar, not a stack.** Different legal flows - tax-deductible giving routes through the **501(c)(3) partner
+(Fractured Atlas / New Media Commons)**; Artizen sponsorship routes through Artizen (merchant of record) and
+unlocks match + the Presenting Sponsor slot. A donor picks ONE.
 
-ZAOstock's existing **3 sponsor tracks (Main Stage / Broadcast / Year-Round)** map straight onto Artizen
-fund sponsorships. **Move:** re-pitch the sponsor deck (zaostock.com/sponsor/deck) with "your gift is
-tax-deductible AND doubled by match AND puts your brand on the fund hero." That is a better offer than a
-plain sponsorship anywhere else.
+The synergy is still real - ZAO can offer **both rails and let the donor pick what they value:**
+- **Tax write-off matters more** (foundations, businesses needing the deduction) -> the 501(c)(3) path.
+- **Amplified impact + brand visibility matter more** -> Artizen (their $1 unlocks match, they get the
+  Presenting Sponsor hero slot, the gift is "doubled" not deducted).
+
+ZAOstock's **3 sponsor tracks (Main Stage / Broadcast / Year-Round)** can be sold on either rail. **Move:**
+in the sponsor deck (zaostock.com/sponsor/deck), present it as a clean choice - "deduct it, or double it and
+get top billing" - and route each sponsor to the rail that fits. Do NOT claim both at once.
 
 ## 2. ZAOstock artists x Artifacts = the festival is an Artifact-minting engine
 
@@ -68,9 +71,35 @@ project" to "ZAO Festivals as a fund." Decide later; the project ships now.
 
 ## The compounding loop
 
-Festival media -> Artifacts -> fans buy + boost -> match unlocks (tax-deductible sponsor dollars + endowment)
--> artists paid -> better festival -> more media. Each ZAOstock cycle feeds the next, and the ZAO Fund's
-match deployed becomes the proof for René (doc 886 + 887). The festival and the fund are the same flywheel.
+Festival media -> Artifacts -> fans buy + boost -> match unlocks (from Artizen sponsorships + the endowment;
+tax-deductible gifts come in on the separate 501c3 rail) -> artists paid -> better festival -> more media.
+Each ZAOstock cycle feeds the next, and the ZAO Fund's match deployed becomes the proof for René (doc 886 +
+887). The festival and the fund are the same flywheel.
+
+## 9-13. More synergies (round 2)
+
+**9. The ZAO Fund as the ecosystem's shared funding rail.** Every ZAO thing - WaveWarZ artists, SongJam,
+ZAOstock performers, the 10-project bloc, ZABAL Games finalists - can curate into the ONE ZAO Fund. That
+concentrates "match deployed" in a single fund, which is exactly the proof metric that wins René's
+attention + the Accelerator. One rail, compounding evidence. Move: make "submit to the ZAO Fund" a default
+step in every ZAO project's launch checklist.
+
+**10. ZABAL Games -> Artizen project pipeline.** The ZABAL Games cohort already ships buildable projects.
+Move: add "mint an Artizen Artifact + submit to the ZAO Fund" as a finals deliverable - the games become a
+recurring feeder of new ZAO-bloc projects, and winners get a funding rail, not just a prize.
+
+**11. ZOE / Hermes -> Bonfires Fund (agentic creativity).** ZAO's agents fit the Bonfires Fund (our KG
+partner; Arun's DreamStarter + Abraham Nash already there). Move: curate ZOE/Hermes there + cross-back with
+Bonfires - reciprocal boosts between two allied communities, not just internal.
+
+**12. Magnetiq attendance NFT + Artizen Artifact = two collectibles, one festival.** ZAOstock can issue a
+Magnetiq attendance "magnet" (proof you were there) AND sell an Artizen Artifact (funds the artists, unlocks
+match). They are complementary, not competing: attendance = memory, Artifact = impact. Move: at the festival,
+one QR offers both - claim your magnet, back an artist.
+
+**13. Edge City / Telamon cross-curation.** Telamon's Edge Esmeralda is already #2 in the ZAO Fund and both
+are "gatherings." Move: mutual curation + a co-rally - ZAO backs Edge City projects, Edge City backs ZAOstock;
+two real-world-gathering communities boosting each other compounds both Boost Scores.
 
 ## Sources
 
