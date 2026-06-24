@@ -107,8 +107,8 @@ export default function SponsorPage() {
         <ul className="space-y-2 text-sm text-white/70">
           <li className="rounded-lg border border-white/10 bg-white/5 p-3">
             <strong className="text-white">ZAOstock 2026</strong> - a free, artist-built music festival in
-            downtown Ellsworth, Maine (Oct 3), at the gateway to Acadia. Built by a 27-person team + the local
-            community.
+            downtown Ellsworth, Maine (Oct 3), part of Art of Ellsworth weekend, at the gateway to Acadia. Built
+            by a 27-person team with the local community.
           </li>
           <li className="rounded-lg border border-white/10 bg-white/5 p-3">
             <strong className="text-white">The ZAO community of creators</strong> - musicians, filmmakers, and
