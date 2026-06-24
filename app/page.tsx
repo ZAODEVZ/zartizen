@@ -188,6 +188,17 @@ export default function ArtizenPage() {
               The ZAO
             </a>
           </div>
+          <p className="mt-4 text-sm text-white/50">
+            New here, or thinking about sponsoring?{' '}
+            <a href="/about" className="text-[#f5a623] underline-offset-2 hover:underline">
+              How it works
+            </a>{' '}
+            -{' '}
+            <a href="/sponsor" className="text-[#f5a623] underline-offset-2 hover:underline">
+              Ways to give
+            </a>
+            .
+          </p>
         </header>
 
         {/* Stats */}
