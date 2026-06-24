@@ -39,8 +39,30 @@ IRL activation, and **streaming/livestream**.
 - Everything here is a CANDIDATE. Next step is to research each one's actual sponsorship/grant process and
   pick 3 to approach first - not to treat any as secured.
 
+## Livepeer - how to actually pursue it (researched 2026-06-23; NOT secured)
+
+Apply at the new home: **livepeer.notion.site/Livepeer-Grants-Program** (the old GitHub grants repo is deprecated).
+Two paths for ZAOstock:
+
+**Path 1 - Event sponsorship (cleanest fit).** Livepeer accepts a SEPARATE application for "sponsorship
+requests for your conference, hackathon, event, etc." This is the direct ask: sponsor ZAOstock as an event.
+Lighter than a build grant; pitch the free festival + 1K+ livestream + Acadia-gateway audience.
+
+**Path 2 - Video Disruptor grant (up to $15k, more work).** If ZAOstock's livestream actually RUNS ON Livepeer
+(decentralized streaming), it can qualify as a showcaseable web3-video application. Real money, but with terms:
+- Must be **open-source**, with a **"Powered by Livepeer" watermark visible during the stream**
+- **3-month** delivery timeline; payment in **LPT tokens on Arbitrum** (a token, not cash - mind liquidity, like ART)
+- Apply by submitting a proposal (specs, mockups, milestones, timeline) -> committee reviews in **2-4 weeks** ->
+  **20% upfront**, rest on milestones.
+
+Other tiers (lower fit for a festival): Microgrants (<=$2k, 1-month dev tasks); Open Network grants (node tooling).
+
+**Recommended move:** lead with **Path 1 (event sponsorship)** - lowest friction, no open-source/watermark
+burden. If the team is willing to put the livestream on Livepeer infra, stack **Path 2** on top. Either way it
+is an APPLICATION, not a commitment - draft the proposal, do not budget on it.
+
 ## Next research (per target, before outreach)
 
-1. Livepeer Foundation grant criteria + how to apply as an event.
+1. ~~Livepeer grant criteria + how to apply as an event.~~ Done above - lead with event sponsorship (Path 1).
 2. Coop Records - how they back projects (fund vs sponsor vs label deal) + who to reach.
 3. Protocol Labs / Greenpill - the warm intro path via Telamon / the Artizen fund directors.
