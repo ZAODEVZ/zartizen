@@ -21,10 +21,10 @@ export const communityProjects: CommunityProject[] = [
   { name: 'Fellenz Tourz North America', owner: 'Tom Fellenz', slug: 'fellenz-tourz-north-america', note: 'Tom Fellenz - veteran event producer + ZAOstock advisor, 20+ events.', verified: true },
   { name: 'COC Concertz', owner: 'Thy Revolution', slug: 'cocconcertz', note: '50/50 ZAO x COC live-concert JV - Thy Rev leads, COC owns it. 5 shows, multi-platform stream.', verified: true },
   { name: 'Heritage Collection', owner: 'Gneric', slug: 'heritage-collection', note: 'Fashion, music + blockchain showcase. In the ZAO Fund.', verified: true, status: '~$5.8k sales' },
-  { name: 'InSync', owner: 'JED XO', slug: 'insync', note: 'Music by JED XO - Artizen also lists "HOPE", a 5-track EP. Confirm which title is live.', verified: false, status: '~$5.7k sales (HOPE)' },
+  { name: 'InSync', owner: 'JED XO', slug: 'insync', note: 'Music by JED XO (also the HOPE EP); ZAO community artist.', verified: true, status: '~$5.7k sales' },
   { name: 'HuRya Empowerment Foundation', owner: 'PolyRaiders (Moses)', slug: 'hurya-empowerment-foundation', note: 'Web3 art funding dignity for girls in Nigeria - 767 Base mints reached 1,000 girls; building a vocational center. Close ZAO ally.', verified: true, status: '767 mints -> 1,000 girls' },
   { name: 'The Creator Block', owner: 'KOSBAAR', slug: 'the-creator-block', note: 'Summit where creators showcase + learn to own their work on-chain.', verified: true },
   { name: 'Ecoes of Freedom', owner: 'Trish', slug: 'ecoes-of-freedom', note: 'America 250 - site-specific AR public art + history tour, Jersey City.', verified: true },
-  { name: 'Baraza TV', owner: 'Motomoto (Aziz)', slug: 'baraza-tv', note: 'Africa-focused media project out of Nairobi. Confirm the exact format before describing publicly.', verified: false },
+  { name: 'Baraza TV', owner: 'Motomoto (Aziz)', slug: 'baraza-tv', note: 'Africa-focused media network out of Nairobi; pays African creators. ZAO Fund supporter.', verified: true },
   { name: "Marie Chain's New Album", owner: 'Marie Chain', slug: 'marie-chain-new-album', note: 'Berlin soul/pop/jazz singer-songwriter (German Songwriting Award winner) completing a new album.', verified: true },
 ];
