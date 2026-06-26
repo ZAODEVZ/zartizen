@@ -44,6 +44,24 @@ come from Zaal + the team.
 Acadia-area tourism (hotels, restaurants, breweries), downtown shops (boutiques, chocolatiers, jewelers).
 Best reached as a group through the Chamber + Heart of Ellsworth, not one-by-one cold.
 
+## Sponsor tiers - sized from real comparable Maine festivals (a PROPOSAL, not fixed)
+
+Benchmarked to actual published Maine community-festival sponsor menus - adjust with HOE input.
+- Trails End Festival (Millinocket ME, ~7k pop): Bronze $200-299 / Silver $300-399 / Gold $400-499 / Headliner
+  Music $1,000+. [research, HIGH] - the closest-size Maine comp.
+- Machias Wild Blueberry Festival (ME): Music Stage sponsor = $500 (banner + website). [research, MEDIUM]
+- SeeMyLegacy community-festival playbook: Bronze $1k / Silver $2.5k / Gold $5k / Presenting $10k+, plus a-la-carte
+  (stage $2k, activity zone $1.5k, banner $500). [research, MEDIUM]
+
+Proposed ZAOstock menu (mid-point of the comps - confirm with HOE before publishing):
+- **Bronze $500** - logo on site + map, social mention
+- **Silver $1,500** - + stage recognition
+- **Gold $3,000** - + VIP passes, printed program
+- **Presenting $5,000-$10,000** - logo on stage, press release, livestream credit, VIP lounge
+- A-la-carte: stage $2k, livestream $1.5k (Livepeer slot), banner $500
+
+This sizes the $10-25k need into a real menu: e.g. 1 Presenting + 2 Gold + 3 Silver + a few Bronze ~= the goal.
+
 ## Recommended first moves (given the warm HOE + Art-of-Ellsworth relationship)
 
 1. **Use the Heart of Ellsworth relationship to ask: which of their 50+ sponsors fit a free music festival on

@@ -93,3 +93,8 @@ abstract. The /festivals page (with the CHELLA reels) is the proof.
    the /festivals link.
 4. Pull the buyers/boosters from the warm channels (the ZAO bloc, Devz, the team) - same crew that backs the
    ZAO Fund.
+5. **Get BOTH projects curated by MULTIPLE funds.** [research, HIGH] Each fund that curates a project gives it
+   its own 1:1 match - so a project in 3 funds matches 3x on the same Artifact sales. Submit, then get the ZAO
+   Fund + other friendly funds (Greenpill, etc.) to curate them. This is the single biggest match multiplier.
+6. Note: $1,000 raised = ~10,000 voting points for next season [research, MEDIUM] - so a strong week also buys
+   governance weight going forward.
