@@ -21,6 +21,12 @@ export default function CommunityPage() {
           <strong> buy a $10 Artifact AND boost</strong> (boosting is free). When we back each other, the whole
           bloc climbs together.
         </p>
+        <p className="mt-2 text-sm text-white/45">
+          <span className="rounded-full bg-emerald-500/15 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-emerald-400">verified</span>{' '}
+          = details checked.{' '}
+          <span className="rounded-full bg-[#f5a623]/15 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-[#f5a623]">confirm</span>{' '}
+          = project details still being nailed down. Tap any card to open it on Artizen.
+        </p>
       </header>
 
       <div className="grid gap-3 sm:grid-cols-2">
@@ -34,12 +40,28 @@ export default function CommunityPage() {
           >
             <div className="flex items-baseline justify-between gap-2">
               <span className="font-semibold">{p.name}</span>
-              <span className="text-[11px] uppercase tracking-wide text-[#f5a623] opacity-0 transition group-hover:opacity-100">
-                buy + boost &rarr;
+              <span
+                className={`shrink-0 rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide ${
+                  p.verified
+                    ? 'bg-emerald-500/15 text-emerald-400'
+                    : 'bg-[#f5a623]/15 text-[#f5a623]'
+                }`}
+              >
+                {p.verified ? 'verified' : 'confirm'}
               </span>
             </div>
             <div className="mt-0.5 text-sm text-[#f5a623]/80">{p.owner}</div>
             <div className="mt-1 text-sm text-white/55">{p.note}</div>
+            <div className="mt-2 flex items-center justify-between gap-2">
+              {p.status ? (
+                <span className="text-[11px] text-white/40">{p.status}</span>
+              ) : (
+                <span />
+              )}
+              <span className="text-[11px] uppercase tracking-wide text-[#f5a623] opacity-0 transition group-hover:opacity-100">
+                open on Artizen &rarr;
+              </span>
+            </div>
           </a>
         ))}
       </div>
