@@ -12,14 +12,16 @@ export interface CommunityProject {
 export const ARTIZEN_PROJECT_BASE = 'https://artizen.fund/index/p/';
 
 export const communityProjects: CommunityProject[] = [
-  { name: 'The Impact Concerts', owner: 'EZ (EZinCrypto)', slug: 'impact-concerts', note: 'Regen musician running monthly impact concerts; long-time ZAO supporter.' },
-  { name: 'POIDH', owner: 'Kenny', slug: 'poidh', note: 'Bounty platform the BCZ/ZAO crew runs clip-up + creative bounties on.' },
-  { name: 'Fellenz Tourz North America', owner: 'Tom Fellenz', slug: 'fellenz-tourz-north-america', note: 'Veteran event producer + ZAOstock advisor; 20+ events run.' },
-  { name: 'COC Concertz', owner: 'Thy Revolution', slug: 'cocconcertz', note: '50/50 ZAO x COC live-concert joint venture; Thy Rev leads.' },
-  { name: 'Heritage Collection', owner: 'Gneric', slug: 'heritage-collection', note: 'Multidisciplinary fashion, music + blockchain showcase.' },
-  { name: 'InSync', owner: 'JedXO', slug: 'insync', note: 'Music project from JedXO (also behind the HOPE EP); ZAO community artist.' },
-  { name: 'HuRya Empowerment Foundation', owner: 'PolyRaiders (Moses)', slug: 'hurya-empowerment-foundation', note: 'Web3 art funding dignity for girls (pads, education, vocational center). Close ZAO ally.' },
-  { name: 'The Creator Block', owner: 'KOSBAAR', slug: 'the-creator-block', note: 'Two-day summit where creators showcase work + learn to own it on-chain.' },
-  { name: 'Ecoes of Freedom', owner: 'Trish', slug: 'ecoes-of-freedom', note: 'America 250 - site-specific AR public-art + history XR project.' },
-  { name: 'Baraza TV', owner: 'Motomoto (Aziz)', slug: 'baraza-tv', note: "Africa's AI-anchored broadcast network, Nairobi; pays African creators. ZAO Fund supporter." },
+  // Notes verified 2026-06-26 - see research/bloc-projects.md for confidence + sources. Items marked
+  // "(confirming)" were not web-verifiable; keep neutral until Zaal confirms.
+  { name: 'The Impact Concerts', owner: 'EDInCrypto', slug: 'impact-concerts', note: 'Impact-driven music events; ZAO supporter. (Creator identity confirming.)' },
+  { name: 'POIDH', owner: 'Kenny Vidinich', slug: 'poidh', note: 'Non-custodial on-chain bounty platform on Base; BCZ/ZAO run creative bounty rounds on it (zpoidh).' },
+  { name: 'Fellenz Tourz North America', owner: 'Tom Fellenz', slug: 'fellenz-tourz-north-america', note: 'Tom Fellenz - veteran event producer + ZAOstock advisor. (Project name/listing confirming.)' },
+  { name: 'COC Concertz', owner: 'Thy Revolution', slug: 'cocconcertz', note: '50/50 ZAO x COC live-concert JV - Thy Rev leads, COC owns it. 5 shows, multi-platform stream.' },
+  { name: 'Heritage Collection', owner: 'Gneric', slug: 'heritage-collection', note: 'Fashion, music + blockchain showcase. In the ZAO Fund (~$5.8k Artifact sales, June 2026).' },
+  { name: 'InSync', owner: 'JED XO', slug: 'insync', note: 'Music by JED XO - Artizen also lists "HOPE", a 5-track EP (~$5.7k sales). (Exact title confirming.)' },
+  { name: 'HuRya Empowerment Foundation', owner: 'PolyRaiders (Moses)', slug: 'hurya-empowerment-foundation', note: 'Web3 art funding dignity for girls in Nigeria - 767 Base mints reached 1,000 girls; building a vocational center. Close ZAO ally.' },
+  { name: 'The Creator Block', owner: 'KOSBAAR', slug: 'the-creator-block', note: 'Summit where creators showcase + learn to own work on-chain. (Details confirming.)' },
+  { name: 'Ecoes of Freedom', owner: 'Trish', slug: 'ecoes-of-freedom', note: 'America 250 - site-specific AR public-art + history. (Details confirming.)' },
+  { name: 'Baraza TV', owner: 'Motomoto (Aziz)', slug: 'baraza-tv', note: 'Africa-focused media project, Nairobi. (Exact nature confirming - see research doc.)' },
 ];
