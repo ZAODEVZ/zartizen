@@ -46,6 +46,19 @@ with Heart of Ellsworth (the town's Main Street org).
 - zaostock.com (the festival, team, lineup)
 - ZAO-CHELLA recap: instagram.com/reel/DDa-oPBJ7G7/
 
+## Rewards / what backers get (drives the $10 sale)
+Every backer: your name on the ZAOstock supporters wall, the build-in-public updates, and first access to the
+livestream. Every $10 also unlocks match from each fund backing us - so your buy multiplies straight into an
+artist's pay.
+
+## Who's behind it / by the numbers (credibility)
+A 27-person team + local crew. 501(c)(3)-backed via Fractured Atlas. Two prior festivals (NYC + Miami). Part of
+Art of Ellsworth weekend, working with Heart of Ellsworth (the town's Main Street org). Targets: 200-400 in
+person + 1,000+ livestream.
+
+## Video (add a YouTube link - a page with video converts better)
+The ZAO-CHELLA recap or a 30-60s festival sizzle.
+
 ## Artifact brief (your upload)
 Square 1:1, NO text or graphic overlays, $10 open edition. A frame from the CHELLA / PALOOZA / WaveWarZ footage -
 crowd, stage, lights. A GIF or short video performs best (Artizen's own guidance).
