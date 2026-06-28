@@ -2,6 +2,45 @@
 
 A growing log from looping on ZAO Festivals. Each pass adds verified learnings + fresh ideas. Newest on top.
 
+## Pass 2 - 2026-06-28 (brand)
+
+### Learnings
+- **Current @zaofestivals voice:** casual + web3-native hype. "zm" is the house greeting (their "gm"),
+  countdown-driven ("ZAO-STOCK in 195 days"), community-rallying ("Who's ready for the next ZAO-Festival??"),
+  heavy on Spaces + RTs. The voice = hype, countdown, community-first.
+- **Festival-brand principles (verified):** (1) a documented design SYSTEM - typography + primary/secondary
+  colors + custom iconography + photo guidelines, in a brand book; (2) a MODULAR logo - a primary wordmark +
+  a simple emblem that works tiny (avatar) to huge (stage scrim); (3) Instagram-worthy on-site moments are
+  free branding (Coachella installations); (4) consistent storytelling recognizable at a glance.
+
+### The ZAO Festivals brand, as it stands (read)
+- **Signature device: the "ZAO-[pun]" naming system** - ZAO-PALOOZA, ZAO-CHELLA, ZAOville, ZAOstock. This is
+  the strongest, most ownable brand asset already in hand. Lean all the way in: every chapter = ZAO + a
+  festival name. Instantly recognizable, infinitely extensible.
+- **Emerging visual language: navy #0a1628 + gold #f5a623, crowd silhouettes, stage light, hands up.** The
+  106-agent Artifact pass converged on exactly this (the "Crowd Light Surge" aesthetic) - that IS the look.
+- **Voice: "zm", countdown, community-first, hype** online - but LOCALLY (Ellsworth) flip to lead-with-music,
+  zero-jargon. Two registers, same brand.
+
+### Brand-building plan (ideas)
+1. **Write a 1-page ZAO Festivals brand book:** the ZAO-[pun] naming rule, navy+gold palette, the silhouette/
+   gold-light photo style, the "zm" voice + the local no-jargon register. One page so the 27-person team stays
+   consistent. (Biggest gap - no documented system exists.)
+2. **A modular mark:** a primary "ZAO Festivals" wordmark + a small emblem (works as an X avatar AND an Artifact
+   corner). The naming is verbal equity; give it a visual anchor.
+3. **A signature on-site moment at ZAOstock** - one Instagram installation (a gold-light arch, a WaveWarZ
+   screen) people photograph = free branding toward the 4,000-resident goal.
+4. **Codify "zm"** as the community ritual/greeting - small, but it's already organic; own it.
+5. **Treat past posters (PALOOZA/CHELLA) as brand artifacts** - collect them; the lineage is brand equity.
+6. **Consistent Artifact aesthetic across all ZAO projects** = a recognizable "ZAO on Artizen" look (navy/gold
+   silhouettes) so the whole bloc reads as one family on the platform.
+
+### To learn next (brand)
+- Is there an existing ZAO Festivals logo/mark? (check zaostock.com assets)
+- The PALOOZA/CHELLA poster designs (brand history).
+- More of the voice (full post history via scraper).
+- Comparable COMMUNITY-OWNED festival brands (not just Coachella) - closer models.
+
 ## Pass 1 - 2026-06-28
 
 ### Learnings (from the zaostock repo)
