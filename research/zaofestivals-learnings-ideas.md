@@ -2,6 +2,35 @@
 
 A growing log from looping on ZAO Festivals. Each pass adds verified learnings + fresh ideas. Newest on top.
 
+## Pass 6 - 2026-06-28 (content + growth engine)
+
+The team has a documented social-media-owner gap. The fix is a simple, repeatable content engine - not more
+effort, just a format that runs itself off footage already on hand.
+
+### The repeatable formats (low-effort, high-frequency)
+1. **"Moments" series** - one real event photo + a few sentences from Zaal (what it was / why it matters /
+   the invite). This is BOTH the Artizen Artifact format AND a recurring social post. One asset, two jobs.
+2. **Countdown** - "ZAOstock in X days" is already organic; make it a standing weekly post with a different
+   photo each time. Free engagement hook.
+3. **Artist spotlights** - one post per confirmed artist (feeds off the CRM as artists move to `confirmed`).
+   Doubles as the lineup reveal, and each artist reshares to their fans = distribution.
+4. **Build-in-public** - the prep, the team, the standup wins. The festival's making-of IS content.
+5. **Lineage reels** - the ZAO-CHELLA/PALOOZA recap footage (the IG reels exist) recut as teasers.
+
+### Two-track rule (already in the brand book)
+- **Web3 track:** Artizen, the 3x match, the bloc - for the crypto crowd.
+- **Local track:** free music, Oct 3, no jargon - for the 4,000 Ellsworth residents. Never cross the streams.
+
+### Growth = turn every artist into a distribution node
+- Each confirmed artist posts to their own fans -> their fans buy a $10 Artifact / hear about Oct 3. The lineup
+  isn't just talent, it's the marketing channel. The artist-spotlight series operationalizes this.
+- Cross-promote with the ZAO bloc (the other Artizen projects) - shared audience, shared drive.
+- Ride Art of Ellsworth weekend's existing press + foot traffic instead of buying awareness.
+
+### Cheapest win
+A single recurring "Moments" post (photo + Zaal's lines), 2-3x a week, pulling from existing footage. It feeds
+the feed, the Artizen page, and the countdown at once - and needs no designer, just a photo and three sentences.
+
 ## Pass 5 - 2026-06-28 (the ownership model, deepened)
 
 The differentiator: make "the crowd that funds it owns it" REAL, but light - a contributors' circle, not a legal
