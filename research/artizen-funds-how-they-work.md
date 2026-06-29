@@ -105,6 +105,19 @@ two programs or a changed figure. Do NOT cite one as fact - confirm on artizen.l
 - The **$1 trillion** goal is explicitly ASPIRATIONAL - René: "there's a good chance we won't make it." Do not
   cite $1T as a real figure; cite the $4M->$10M actuals.
 
+## Success cases + mobilization (research pass, MED-HIGH)
+- **Proof a live/touring project raises big:** one artist raised **~$100k** on Artizen to fund a nine-city,
+  3-month performance tour [example, MED]. That is the closest analog to ZAO Festivals "bring artists to the
+  stage" - a touring/live project is a proven Artizen winner, not a stretch.
+- Victor's Street Mural: #2 overall, won a **$5k** Artizen Prize, ~$17k total [example, MED]. Platform has paid
+  out **$750k+** across hundreds of projects [HIGH].
+- **Artizen's own fan-mobilization advice [HIGH]:** post FREQUENTLY on X and tag **@ArtizenFund**; engage the
+  Console community; do PERSONAL outreach (text, DM, phone) - not just broadcast; host virtual + in-person
+  events. The win comes from your own fans + the Artizen community, mobilized hard in-season.
+- **Maps onto ZAO's plan:** the bloc cross-back, the artist-as-distribution-node series, and the "Moments"
+  content cadence ARE this playbook. Add: tag @ArtizenFund on every post, and do personal DMs to the bloc +
+  artists (not just a group blast).
+
 ## Net recommendation for the ZAO Fund
 1. **Logline -> short "For [X]"** naming the ZAO community (biggest copy fix).
 2. Keep the tightened description + the "collaborate with The ZAO" eligibility (those match the substance funds
