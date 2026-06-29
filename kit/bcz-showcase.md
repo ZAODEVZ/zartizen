@@ -1,25 +1,29 @@
 # BetterCallZaal Strategies, the showcase (built from real material)
 
-The upgraded BCZ project copy, built from research/bcz-consulting-material.md. Turns the page from a fundraiser
-into a real practice opening its doors. Plus starter drafts for the two gaps (edit these in your own voice).
+The BCZ project copy. Framing locked by Zaal 2026-06-29: this is his fund to go full-time helping artists. He
+already gives free advice to his community whenever he can; this lets him do it for real. The ask is humble and
+mutual: if Zaal being a champion of your project would help you, back it and he supports with what he can. The
+"what" is "plug into my stack" (time, tools, network).
 
 ## Logline
-Backing the launch of my consulting practice. Buy an Artifact, get an hour of consulting on anything you need.
+My fund to help artists full-time. Back it if you would value me in your corner, and I will support however I can.
 
 ## Description
-I am Zaal, and I am launching BetterCallZaal Strategies, my consulting practice. Whether you need infrastructure
-built or the right introduction made, that is what I do.
+This is my fund to help me help artists full-time. I give free advice and support to anyone in my community
+whenever I can, but right now I can only do it on the side. I want to do it for real, and find more ways to
+collaborate and align with the people building alongside me.
 
-I have spent years shipping in public. I co-built WaveWarZ (459 SOL in fan-trading volume, 950 battles, payouts
-straight to artists onchain), founded The ZAO (250+ artists, 100+ weekly governance meetings), shipped 80+
-open-source repos, and ran 400+ newsletter editions. Before all that I led a $1.5M robotics project and 7x'd its
-throughput. Now I am going full-time to do this for you.
+So here is the simple version: if you would value me being a champion of your project, buy an Artifact and I will
+support you with what I can. That means plugging you into my stack: my time, my tools (fork the 80+ open-source
+repos and AI agents I have built), and the right introductions from my network.
 
-Here is the deal: every Artifact you buy is one hour of consulting from me, on anything you need, online or in
-person. A launch, a brand, a token, an event, an AI agent, a pitch, or the idea you are stuck on. You help me
-launch, I help you build.
+You help me go full-time, I show up for what you are building. Email zaal@bettercallzaal.com and tell me what you
+are working on.
 
-Back it, then email zaal@bettercallzaal.com with your best times and what you want to work on.
+## Receipts (so people know what "in your corner" is worth)
+Co-built WaveWarZ (459 SOL volume, payouts straight to artists). Founded The ZAO (250+ artists, 100+ weekly
+governance meetings). 80+ open-source repos. 400+ newsletters. Won the Snap category at FarHack 2026. Earlier,
+led a $1.5M robotics project and 7x'd its throughput.
 
 ## The 4 questions
 **What are you making?**
