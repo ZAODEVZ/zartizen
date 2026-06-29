@@ -39,9 +39,10 @@ Research adds four more levers, all applied to the offer copy:
 - **Gifting**: "Buying for a friend or your team? Tell me who and I'll work with them." Widens the buyer base.
 - **Async option**: "Can't meet live? Send your thing and I'll record a full review or build it with you over
   messages." Captures other timezones and async-preferring buyers.
-- **Social proof is the strongest lever and the one gap**: products with testimonials are ~270% more likely to
-  be bought; video testimonials beat text by ~80%. NEEDS ZAAL: 2 to 3 short real quotes from people he has
-  helped (name + what they built + one line). Add them near the buy. This is the highest-value add still open.
+- **Social proof, now sourced**: products with testimonials are ~270% more likely to be bought; video beats text
+  by ~80%. Pulled 2 real testimonials from bettercallzaal.com (Hurric4n3Ike on WaveWarZ, the strongest, and Jose
+  Cabrera). They go in a block right above the buy (see kit/bcz-testimonials clipboard). Asking a couple more
+  people for fresh quotes (a short video is ideal). This was the top open lever and it is now closing.
 
 ## The full offer copy (v2, paste-ready)
 THE HOUR ($10, 1 Artifact): a full hour on anything you bring. You leave with a clear next step.
