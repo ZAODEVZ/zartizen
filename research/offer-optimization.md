@@ -53,6 +53,13 @@ Async: can't meet live? Send your thing and I'll record a full review or build i
 Gift it: buying for a friend or your team? Tell me who and I'll work with them.
 Scarcity: I can only take on so many hours this season, so the sooner you grab one, the sooner we build.
 
-## Note
-Could extend the same tier logic to ZAO Festivals rewards later, but BCZ is the offer-driven project, so it
-matters most there.
+## ZAO Festivals rewards (tiered, applied 2026-06-29)
+Same tier logic, festival-appropriate perks (recognition up to experiences, per festival-crowdfunding research):
+- **BACKER ($10):** name on the ZAOstock supporters wall, livestream access, the recap reel, build-in-public
+  updates. (all digital, safe to promise everyone)
+- **SUPPORTER ($50):** + a limited ZAOstock digital supporter collectible + a public shoutout.
+- **FOUNDER ($100):** + name on the on-site Thank You wall at ZAOstock + a thank-you from the stage.
+- Scarcity: "ZAOstock is October 3. Back it before the drive ends to be on the founding supporters wall."
+- WARNING (research): the most common festival-crowdfunding failure is overselling in-person/VIP slots and
+  delivering late. Only promise the on-site perks Zaal will actually deliver; the digital perks are safe.
+  Copy in kit/zaofestivals-rewards-tiered clipboard.
