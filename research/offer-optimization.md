@@ -62,6 +62,19 @@ The remaining grand-slam-offer levers (Hormozi: stack value, add a bonus, revers
   even talk, so we hit the ground running." Adds urgency without showing any tier as sold out.
 - These go at the top of the BCZ offer, above the tiers. Copy in kit/bcz-offer-v3-extras clipboard.
 
+## v4 layer (2026-06-29): the strategic reframe, "plug into my stack"
+The biggest upgrade is not another lever, it is repositioning what is being sold.
+- **Problem with "an hour":** it positions Zaal as a generic consultant competing on price. His real edge is being
+  a BUILDER with a STACK (80+ open-source repos, AI agents) and a NETWORK (849+ contacts, the ZAO community). Sell
+  that, not the hour.
+- **The reframe:** every Artifact plugs you into a builder's full stack: (1) the hour, (2) the tools (fork my
+  repos, agents, templates), (3) the right introduction from my network, (4) the async teardown. Line: "You are
+  not buying an hour of advice. You are plugging into a builder's full stack: my time, my tools, and my network."
+  This matches the "builders who need resources to ship" target literally, and it is a moat no solo consultant has.
+- **Founding clients, not buyers:** frame early backers as founding clients. Priority forever, a real
+  relationship, first access as the practice grows. Turns a $10 buy into a pipeline, which is the actual business.
+- Applied to the copy in kit/bcz-stack-reframe clipboard.
+
 ## ZAO Festivals rewards (tiered, applied 2026-06-29)
 Same tier logic, festival-appropriate perks (recognition up to experiences, per festival-crowdfunding research):
 - **BACKER ($10):** name on the ZAOstock supporters wall, livestream access, the recap reel, build-in-public
