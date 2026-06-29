@@ -45,18 +45,29 @@ co-founder of WaveWarZ, 80+ repos. I build in public, I keep my word, and that i
 web3 music, AI-agent infrastructure, Farcaster mini-apps and snaps, community and governance design, and Maine
 project builds.
 
-## GAP 1 starter: how we work together (edit this)
-1. Intake: tell me what you are building and where you are stuck.
-2. Scope: we name the one thing that moves the needle most, and what done looks like.
-3. Build or connect: I build it with you (code, agent, brand, plan) or make the introduction you need.
-4. Handoff: you leave with the thing, clear next steps, and it is open-source where that makes sense.
-Build in public, ship then iterate, no jargon.
+## How we work together (filled from the grill: async teardown first)
+1. You send me your thing: a link, a repo, a deck, or just the problem. I record a teardown so you get value
+   before we even meet.
+2. We meet, usually as a small group office-hours session, and earliest collectors get first pick of times.
+3. We spend the live time on the one thing that moves the needle most.
+4. You leave with the teardown, a clear plan, and next steps. Open-source where it makes sense.
+(Want dedicated 1:1 time? The Deep Dive and Sprint tiers are yours alone.)
 
-## GAP 2 starter: why now (make this yours, it is your inflection point)
-Streaming pays artists $0.003 a play. Labels keep 80 to 85%. Platforms own the audience and the data. I have
-spent years building the tools to fix this in public, and helping other builders ship along the way, on nights
-and weekends. The work is real and it is working. It is time to do it full-time, and for more people than just
-my own projects. This is me betting on myself and opening the doors.
+## Why now (filled from the grill: the day job is the cap. Make the wording yours.)
+I have been building this on nights and weekends for years, and the day job is the cap. The communities, the
+tools, the artists I help, all of it is throttled by the hours I do not have. Going full-time is the only way to
+do it at the level it deserves, and to do it for more people than just my own projects. This is me taking the
+cap off. Streaming pays artists $0.003 a play, the tools to fix it exist, and that is the work I am going all in
+on.
+
+## Positioning (from the grill: builders who need resources)
+For builders who need resources to ship: infrastructure, an AI agent, the right introduction, or a clear plan.
+That is the sweet spot.
+
+## Capacity model (from the grill, state it honestly in the offer)
+Every Artifact gets you an hour, run as small group office-hours so everyone gets real help, with earliest
+collectors getting priority times. Buy early to be at the front of the line. Plus the async teardown means you
+get value before the live session. Deep Dive and Sprint tiers get dedicated 1:1 time.
 
 ## Still to fold in when the assistant returns
 Festival hard numbers, top 3 portfolio items with metrics + URLs, a before-and-after client story, packages or
