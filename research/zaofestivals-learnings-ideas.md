@@ -2,6 +2,38 @@
 
 A growing log from looping on ZAO Festivals. Each pass adds verified learnings + fresh ideas. Newest on top.
 
+## Pass 7 - 2026-06-28 (ZAO Festivals as a protocol / chapter-anywhere)
+
+"A festival as a protocol, not a product" is already the brand line - make it the growth engine. ZAOville
+(DCoop ran the DMV chapter) is proof the model travels: someone other than the core team threw a ZAO-[name]
+festival. Scale by enabling more hosts, not by ZAO running every event.
+
+### The model
+Anyone in a creative community can host a **ZAO-[their-city]** chapter. ZAO provides the brand + the kit + a
+match fund; the host runs it locally; upside is shared (host-owners join the ownership tiers from pass 5).
+
+### The chapter kit (mostly already exists in the zaostock repo)
+- The naming system + the 1-page brand book (pass 3) - instant identity.
+- The artist CRM (statuses, points, cypher), artist outreach templates, the artist rider, the deal-memo
+  template (docs/music/) - the booking machine, ready to clone.
+- The run-of-show / program pattern + the sponsor finders-fee structure (docs/) - ops + revenue.
+- An Artizen fund/project template (the submission packets we built) - the crowdfunding rail.
+- The site is forkable (zaostock.com is one Next.js app) - a host gets their own page fast.
+
+### Brand guardrails (so the protocol stays "ZAO")
+Keep: ZAO-[name] naming, navy + gold, free to attend, artists paid fairly, community-owned, no-jargon-locally.
+A light "powered by ZAO Festivals" license, not a franchise contract. Trust + brand book over legal lift.
+
+### Why it's the growth engine
+- Each chapter = more artists, more cities, more brand equity, feeding the next chapter (a flywheel).
+- ZAO becomes the protocol/standard for community-owned festivals, not just one festival - far bigger than
+  ZAOstock alone, and on-mission (more community-owned culture in more places).
+- Every chapter plugs into the same Artizen funnel + the ZAO Fund - the financial layer scales with it.
+
+### Open / to learn
+- How did ZAOville actually run under DCoop? (the real template in practice - ask Zaal/DCoop)
+- What's the minimum kit a first-time host needs to not fail? (de-risk the protocol)
+
 ## Pass 6 - 2026-06-28 (content + growth engine)
 
 The team has a documented social-media-owner gap. The fix is a simple, repeatable content engine - not more
