@@ -7,10 +7,14 @@ next. Last updated 2026-06-29. Style note: no spaced hyphen dashes anywhere (hou
 - **Two live Artizen projects** in Season 6:
   - **ZAO Festivals** (free community music festivals, flagship ZAOstock 2026, Oct 3 Ellsworth Maine). Goal $25k.
     Artifact: WaveWarZ at ZAO-CHELLA (square). Submitting into the music, festival, and gathering funds.
-  - **BetterCallZaal Strategies** (Zaal going full-time as a builder for builders). The offer: **every Artifact
-    you buy is one hour with Zaal on anything you want, online or in person.** Buy three, get three hours.
-    Submitting into the builder and AI funds (Bonfires, Venture Miner, Mental Wealth, Apollo, etc). Copy:
-    `kit/bcz-hour-per-artifact` (clipboard) rebuilt around this offer.
+  - **BetterCallZaal Strategies, LIVE on Artizen (posted 2026-06-29).** Final framing (Zaal's words): "My fund
+    to help artists full-time. Back it if you would value me in your corner, and I will support however I can."
+    The offer = plug into Zaal's stack (his time, his tools, his network). One reward: "In Your Corner" ($10).
+    Artifact = the custom ZAO/WaveWarZ avatar. Submitting into the builder and AI funds (Bonfires, Venture
+    Miner, Mental Wealth, Apollo, etc).
+    - Launch posts: X https://x.com/bettercallzaal/status/2071760540679209239 and Farcaster
+      https://farcaster.xyz/zaal/0xbc005517
+    - Copy lineage in kit/: bcz-final-make, bcz-true-framing, bcz-showcase.md, bcz-reward-one, bcz-deck.md.
 - **The ZAO Fund for Emerging Culture** is live (Zaal is curator). Logline updated to "For the artists and
   builders of The ZAO." Description and eligibility tightened, with the "collaborate with The ZAO" rule.
 - **The site** zaoartizen.vercel.app is a full Artizen funnel (see Website below).
@@ -30,6 +34,13 @@ map + the ZAO 3-fund stack), /playbook (how Artizen works + finish strong), /com
 verified badges), /sponsor (the two giving rails + credibility), /dashboard (live fund standings), /festivals
 (the ZAO Festivals umbrella with the ZAO-CHELLA reels), /rally, /apply, /leaderboard, /proposal. Share images
 (opengraph) on the key pages.
+
+## Session close-out (2026-06-29)
+Both Artizen projects are LIVE (ZAO Festivals + BetterCallZaal Strategies). BCZ launched with the true framing
+and a single "In Your Corner" reward, and the launch posts are out (X + Farcaster, links above). The Crescendo
+drive ends in ~2 days. Open items, all Zaal's to drive: submit BCZ to its funds, mobilize buys + boosts, drop
+fresh testimonials, and decide on the 7 conflicting ZAOOS PRs. Everything built is documented here and in kit/
+and research/.
 
 ## Latest state (2026-06-29, after launch + consulting work)
 - **BCZ reframed as a consulting launch.** The offer: every Artifact is one hour of consulting from Zaal,
